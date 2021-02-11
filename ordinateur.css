@@ -1,0 +1,321 @@
+
+
+.blogo1
+{
+	position: relative;
+	display: flex;
+	background: white;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 90;
+	top : calc(-125px + -88vw);
+}
+
+.blogo2
+{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.blog1
+{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3vw;
+}
+
+.blog2
+{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3vw;
+
+}
+
+.blog3
+{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3vw;
+}
+
+.textefenetre1
+{
+	display: flex;
+	flex-direction: column;
+	left: 0px;
+	padding-right: 55%;
+	padding-left: 8vw;
+	position: relative;
+	z-index: 100;
+	top: calc(-30px + -55vw);
+	justify-content: center;
+	align-items: center;
+
+}
+
+.titretextefentre1
+{
+	font-size: 4vw;
+}
+
+.soustextefentre1
+{
+	font-size: 2vw;
+	line-height: 3vw;
+}
+
+.textefenetre2
+{
+	display: none;
+}
+
+.metro2
+{
+	display: none;
+}
+
+.bleu
+{
+	height: 7.5vw;
+
+}
+.container1
+{
+	display: flex;
+	flex-direction: column;
+  	height: 110vw;
+}
+.metro1
+{
+	display: flex;
+	position: sticky;
+  	z-index: 50;
+  	width :100%;
+  	height: auto;
+  	top: 0vw;
+  	align-self: flex-end;
+
+}
+
+
+.fenetre
+{
+	position: relative;
+	display:block;
+	z-index: 75;
+	width:100%;
+	top: calc(-65px + -88vw);
+
+}
+
+/* menu */
+
+#burger_checkbox
+{
+  display: none;
+}
+
+.menu
+{
+	display: flex;
+	padding: 0;
+	background-color: #215EB5;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	margin-right: 5%;
+	margin-left: 5%;
+	justify-content: space-around;
+	align-items: center;
+  	position: fixed;
+  	z-index: 1;
+  	width:90%;
+  	height:3vw;
+  	top: 0px;
+
+
+}
+
+.menu li
+{
+	list-style-type: none;
+}
+
+.menu li a
+{
+	display:flex;
+	align-items: center;
+	justify-content: center;                
+    padding: 0.5vw; 
+    text-align: center;
+    background-color: #215EB5;
+    color: #FFFFFF;
+    font-family: Dosis;
+    font-weight: bold;
+    text-decoration: none;  
+    border: none;
+    border-radius: 20vw;
+	cursor: pointer;
+	width: calc(50px + 7vw);
+	height: calc(15px + 2vw);
+	font-size: calc(10px + 1vw);
+
+}
+
+.menu li a:hover 
+{
+  background-color: white;
+  color: black;
+
+}
+
+/* typo */
+
+h2
+{
+    font-size: calc(20px + 2.5vw);
+    line-height: calc(30px + 1.5vw);
+    margin-bottom: calc(10px + 1.5vw);
+}
+
+h3
+{
+    font-size: calc(10px + 2.5vw);
+    line-height: calc(5px + 1.5vw);
+    margin-bottom: calc(5px + 1.5vw);
+}
+
+p
+{
+  	font-size: calc(8px + 1.3vw);
+    line-height: calc(20px + 1.5vw);
+    margin-bottom: calc(10px + 1.5vw);
+}
+
+i {
+    color: #215EB5;
+    font-size: calc(30px + 3.5vw);
+}
+
+/* Partie 1 */
+
+.KD
+{
+    font-size: calc(30px + 3.5vw);
+    line-height: calc(5px + 1.5vw);
+    margin-bottom: calc(5px + 1.5vw);
+     }
+.GP
+{
+    font-size: calc(18px + 2.5vw);
+    margin-bottom: calc(0px + 0vw);
+     }
+
+.soustitre
+{
+    font-size: calc(15px + 1.5vw);
+    line-height: calc(20px + 2vw);
+    margin-bottom: calc(10px + 1vw);
+     }
+
+.imagedebut
+{
+	width: calc(150px + 18vw);
+
+}
+
+/* Partie 2 */
+
+.troiscentsoixante
+{
+	width: 20vw;
+	margin: 2vw;
+}
+
+.projets
+{
+	width: 20vw;
+	margin: 2vw;
+}
+
+.strategie
+{
+	width: 20vw;
+	margin: 2vw;
+}
+
+
+/*.dsection
+{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-right: calc(30px + 3vw);
+	padding-left: calc(30px + 3vw);
+}*/
+
+.blancbas
+{
+	background: white;
+	border-bottom-right-radius: 5vw;
+	border-bottom-left-radius: 5vw;
+	position: sticky;
+	z-index: 75;
+	height: 100vw;
+
+}
+
+/* Footer */
+.footer
+{
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: bold;
+	font-size: calc(5px + 1vw);
+	padding-bottom: 2vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	z-index: 100;
+	position: sticky;
+	background: #215EB5;
+	max-height: 30vw;
+
+}
+
+.footer a
+{
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-decoration: none;  
+	cursor: pointer;
+	font-size: calc(5px + 1vw);
+	padding-bottom: 2vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+/* Bouton */
+
+.bouton1, .bouton2
+{
+	width: calc(85px + 7vw);
+	height: calc(15px + 2vw);
+	font-size: calc(10px + 1vw);
+	margin-top: calc(0.1vw);
+}
+

@@ -1,0 +1,344 @@
+.blogo1
+{
+	position: relative;
+	display: flex;
+	background: white;
+	width: 90%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 90;
+	top : calc(-50px + -120vw);
+	padding: 5%;
+}
+
+.blogo2
+{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.blog1
+{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10vw;
+}
+
+.blog2
+{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10vw;
+
+}
+
+.blog3
+{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10vw;
+}
+
+.metro1
+{
+	display: none;
+}
+
+.bleu
+{
+	height: 3vw;
+
+}
+
+.container
+{
+	display: flex;
+	flex-direction: column;
+  	height: 300vw;
+  	position: relative;
+  	top: -0.2vw;
+}
+
+.metro2
+{
+	position: sticky;
+  	z-index: 50;
+  	width :100%;
+  	top: 0vw;
+}
+
+.textefenetre1
+{
+	display: none;
+}
+.textefenetre2
+{
+	position: relative;
+	z-index: 100;
+	top: -170vw;
+	align-items: center;
+	justify-content: center;
+	padding:4vw;
+}
+.soustextefentre2
+{
+
+	padding-top: 10vw;
+}
+.fenetre
+{
+	position: relative;
+	display:block;
+	z-index: 75;
+	height: 100%;
+	top: -147vw;
+	transform: rotate(-90deg) scale(2,2.01); 
+}
+
+
+
+  input[type="checkbox"]:not(:checked) ~ ul {
+    display: none;
+  }
+  input[type="checkbox"]:checked ~ ul {
+    display: flex;
+  }
+  
+  input[type="checkbox"] + label:before {
+    font-family: FontAwesome;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10vw;
+	padding: 2vw;
+	margin: 2vw;
+	border-radius: 10vw;
+	width: 15vw;
+	height: 15vw;
+	position: fixed;
+	top: 3vw;
+	right: 3vw;
+	color: white;
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #215EB5;
+	z-index: 150;
+  }
+
+  input[type="checkbox"] + label:before {
+    content: "\f0c9";
+  }
+
+  input[type="checkbox"]:not(:checked) + label:before {
+    content: "\f0c9";
+  }
+
+  input[type="checkbox"]:checked + label:before {
+    content: "\f00d";
+  }
+
+#burger_checkbox
+{
+  display: none;
+}
+
+.menu
+{
+	display: flex;
+	flex-direction: column;
+	padding: 1vw;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 25vw;
+	right: 7vw;  
+	z-index: 150;
+}
+
+.menu li
+{
+	list-style-type: none;
+}
+
+
+
+.menu li a
+{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2vw;
+	margin-bottom: 2vw;                
+    padding-right: 7vw; 
+   	padding-left: 7vw; 
+    padding-bottom: 4vw;  	
+    padding-top: 4vw;  
+    text-align: center;
+    background-color: #215EB5;
+    color: #FFFFFF;
+    font-family: Dosis;
+    font-weight: bold;
+    text-decoration: none;  
+    border: none;
+    border-radius: 20vw;
+	cursor: pointer;
+	width: calc(200px + 7vw);
+	height: calc(30px + 2vw);
+	font-size: calc(50px + 1vw);
+
+}
+
+.menu li a:hover 
+{
+  background-color: white;
+  color: black;
+
+}
+
+h2
+{
+    font-size: calc(65px + 2.5vw);
+    line-height: calc(30px + 1.5vw);
+    margin-bottom: calc(10px + 1.5vw);
+}
+
+h3
+{
+    font-size: calc(40px + 2.5vw);
+    line-height: calc(5px + 1.5vw);
+    margin-bottom: calc(5px + 1.5vw);
+}
+
+p
+{
+    font-size: calc(30px + 2.5vw);
+    line-height: calc(60px + 1.5vw);
+    margin-bottom: calc(10px + 1.5vw);
+}
+
+i {
+    color: #215EB5;
+    font-size: calc(150px + 3.5vw);
+}
+
+.dsection
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-right: calc(20px + 3vw);
+	padding-left: calc(20px + 3vw);
+}
+
+.troiscentsoixante
+{
+	width: 800px;
+	margin: 2vw;
+	margin-bottom: 8vw;
+}
+
+.projets
+{
+	width: 800px;
+	margin: 2vw;
+	margin-bottom: 8vw;
+}
+
+.strategie
+{
+	width: 800px;
+	margin: 2vw;
+	margin-bottom: 10vw;
+}
+
+.KD
+{
+    font-size: calc(100px + 3.5vw);
+    line-height: calc(50px + 1.5vw);
+    margin-bottom: calc(5px + 1.5vw);
+     }
+.GP
+{
+    font-size: calc(65px + 2.5vw);
+    line-height: calc(0px + 0vw);
+    margin-bottom: calc(0px + 0vw);
+     }
+.soustitre
+{
+    font-size: calc(48px + 1.5vw);
+    line-height: calc(60px + 2vw);
+    margin-bottom: calc(10px + 1vw);
+     }
+
+.imagedebut
+{
+	width: calc(500px + 18vw);
+
+}
+
+.blancbas
+{
+	background: white;
+	border-bottom-right-radius: 5vw;
+	border-bottom-left-radius: 5vw;
+	position: sticky;
+	z-index: 75;
+	height: 300vw;
+
+}
+
+/* Footer */
+.footer
+{
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: bold;
+	font-size: calc(20px + 2vw);
+	padding-bottom: 2vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	z-index: 100;
+		position: relative;
+		background: #215EB5;
+		bottom: 0;
+}
+
+.footer a
+{
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-decoration: none;  
+	cursor: pointer;
+	font-size: calc(20px + 2vw);
+	padding-bottom: 2vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+/* Bouton */
+.bouton1, .bouton2
+{
+	width: calc(250px + 7vw);
+	height: calc(65px + 2vw);
+	font-size: calc(30px + 1vw);
+	margin-top: calc(0.1vw);
+
+}
+ 
