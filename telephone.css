@@ -1,8 +1,14 @@
-/* Menu */
+/* Debut et fin */
 
 #start {
 	height: 4vw;
 }
+
+#end {
+	height: 15vw;
+}
+
+/* Menu */
 
 input[type="checkbox"]+label:before {
 	font-family: FontAwesome;
@@ -20,6 +26,7 @@ input[type="checkbox"]+label:before {
 	color: white;
 	border: none;
 	color: #FFFFFF;
+	box-shadow: 0px 1px 1px black;
 	cursor: pointer;
 	background-color: #215EB5;
 	z-index: 150;
@@ -64,9 +71,10 @@ input[type="checkbox"]:not(:checked)~ul {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: center;
+	box-shadow: 0px 1px 1px black;
 	background-color: #215EB5;
 	color: #FFFFFF;
-	font-family: Dosis;
+	font-family: 'Dosis';
 	font-weight: bold;
 	text-decoration: none;
 	border-radius: 10px;
@@ -81,26 +89,7 @@ input[type="checkbox"]:not(:checked)~ul {
 	color: black;
 }
 
-/* Reference */
-
-#tokyoecran {
-	display: none;
-}
-
-#containertokyotelephone
-{	
-  	height: 400vw;
-  	position: relative;
-	top: -100vw;
-}
-
-#tokyotelephone {
-	position: -webkit-sticky;
-	position: sticky;
-  	z-index: 50;
-  	width :100%;
-  	top: 0vw;
-}
+/* Blog */
 
 #blogecran {
 	display: none;
@@ -108,18 +97,21 @@ input[type="checkbox"]:not(:checked)~ul {
 
 #blogbutton
 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 35px;
-	padding: 20px;
-	border-radius: 100px;
+	border-radius: 50px;
+	top : 150px;
 	width: 70px;
 	height: 70px;
-	color: white;
-	border: none;
 	color: #FFFFFF;
-	cursor: pointer;
 	background-color: #215EB5;
-	z-index: 150;
+	z-index: 125;
+}
+
+#formecran {
+	display: none;
+
+}
+
+#formtelephone {
+	position: relative;
+	z-index: 75;
 }

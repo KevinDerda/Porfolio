@@ -1,8 +1,14 @@
-/* Menu */
+/* Debut et fin */
 
 #start {
 	height: 6vw;
 }
+
+#end {
+	height: 8vw;
+}
+
+/* Menu */
 
 .menu {
 	display: flex;
@@ -49,28 +55,17 @@
 	display: none;
 }
 
-/* Reference */
-
-#tokyotelephone {
-	display: none;
-}
-
-#containertokyoecran
-{	
-  	height: 120vw;
-  	position: relative;
-	top: -20vw;
-}
-
-#tokyoecran {
-	position: -webkit-sticky;
-	position: sticky;
-  	z-index: 50;
-  	width :100%;
-  	top: 0vw;
-}
+/* Blog */
 
 #blogtelephone {
 	display: none;
 }
 
+#formecran {
+	position: relative;
+	z-index: 75;
+}
+
+#formtelephone {
+	display: none;
+}

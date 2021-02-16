@@ -1,50 +1,55 @@
 /* Typo */
-h1
-{
+
+h1 {
 	color: #36339E;
 	font-family: 'Dosis';
 	font-weight: bold;
 }
 
-h2
-{
+h2 {
 	color: #6931B5;
 	font-family: 'Dosis';
 	font-weight: bold;
 }
 
-h3
-{
+h3 {
 	color: #6931B5;
 	font-family: 'Dosis';
 	font-weight: bold;
 }
 
-h4
-{
+h4 {
 	color: #6931B5;
 	font-family: 'Dosis';
 }
 
-p
-{
+p {
 	font-family: 'Open Sans';
 }
 
 i {
-    color: #215EB5;
-    font-size: 50px;
+	color: #215EB5;
+	font-size: 50px;
 }
 
 /* fond */
+
 #topwhite {
 	border-top-right-radius: 40px;
 	border-top-left-radius: 40px;
 	position: relative;
-  	z-index: 100;
+	z-index: 100;
+}
+
+#botwhite {
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	position: relative;
+	z-index: 100;
 }
 
 /* Debut */
+
 #title1 {
 	color: #36339E;
 	font-family: 'Dosis';
@@ -68,6 +73,7 @@ i {
 }
 
 /* Boutons */
+
 .btn-primary {
 	background-color: #932EAB;
 }
@@ -92,36 +98,128 @@ i {
 	align-content: center;
 	width: calc(150px + 1vw);
 	border-radius: 15px;
+	box-shadow: 0px 1px 1px black;
 }
 
-#topwhite
-{
+/* Competence */
+
+#competence {
 	position: relative;
 	z-index: 100;
 }
 
-#competence{
+/* Reference */
+
+#fenetre {
+	background-image: url("Images_sites/Tokyoecran.jpg");
+	background-attachment: fixed;
+	background-position: top 200px;
 	position: relative;
-	z-index: 100;
+	z-index: 75;
 }
 
-#fenetre
-{
-position: absolute;
-z-index: 75;
-}
-
-#textefenetre
-{
+#textefenetre {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-#blog
-{	
-	position: absolute;
-	z-index: 75;
+/* Blog */
 
+#blog {
+	position: relative;
+	z-index: 75;
 }
+
+/* Form */
+
+
+
+
+/* Footer */
+
+#footer {
+	position: relative;
+	z-index: 75;
+}
+
+.moveright{
+	-webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	}
+}
+@-webkit-keyframes slide-in-right {
+	0% {
+	  -webkit-transform: translateX(1000px);
+			  transform: translateX(1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateX(0);
+			  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes slide-in-right {
+	0% {
+	  -webkit-transform: translateX(1000px);
+			  transform: translateX(1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateX(0);
+			  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+  
+.moveleft
+  {
+	-webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+  @-webkit-keyframes slide-in-left {
+	0% {
+	  -webkit-transform: translateX(-1000px);
+			  transform: translateX(-1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateX(0);
+			  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes slide-in-left {
+	0% {
+	  -webkit-transform: translateX(-1000px);
+			  transform: translateX(-1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateX(0);
+			  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+
+#footer
+{
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: bold;
+	position: fixed;
+	z-index: 1;
+	bottom: 20px;
+	width: 100%;
+}
+
+#footer a
+{
+    text-decoration: none;  
+	color: #FFFFFF;
+}
+
+  
