@@ -95,7 +95,7 @@ input[type="checkbox"]:not(:checked)~ul {
 	display: none;
 }
 
-#blogbutton
+.blogbutton
 {
 	border-radius: 50px;
 	top : 150px;
