@@ -83,18 +83,15 @@ i {
 }
 
 .moveright {
-	-webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes slide-in-right {
 	0% {
-		-webkit-transform: translateX(1000px);
 		transform: translateX(1000px);
 		opacity: 0;
 	}
 	100% {
-		-webkit-transform: translateX(0);
 		transform: translateX(0);
 		opacity: 1;
 	}
@@ -102,30 +99,25 @@ i {
 
 @keyframes slide-in-right {
 	0% {
-		-webkit-transform: translateX(1000px);
 		transform: translateX(1000px);
 		opacity: 0;
 	}
 	100% {
-		-webkit-transform: translateX(0);
 		transform: translateX(0);
 		opacity: 1;
 	}
 }
 
 .moveleft {
-	-webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes slide-in-left {
 	0% {
-		-webkit-transform: translateX(-1000px);
 		transform: translateX(-1000px);
 		opacity: 0;
 	}
 	100% {
-		-webkit-transform: translateX(0);
 		transform: translateX(0);
 		opacity: 1;
 	}
@@ -133,12 +125,10 @@ i {
 
 @keyframes slide-in-left {
 	0% {
-		-webkit-transform: translateX(-1000px);
 		transform: translateX(-1000px);
 		opacity: 0;
 	}
 	100% {
-		-webkit-transform: translateX(0);
 		transform: translateX(0);
 		opacity: 1;
 	}
@@ -151,15 +141,47 @@ i {
 }
 
 .btn-primary:hover {
-	background-color: #a958bc;
+	animation: shadow-pop-bl 0.3s ease-in both;
+			background-color: #932EAB;
 }
+
+@-webkit-keyframes shadow-pop-bl {
+	0% {
+	  -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+			  box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+	  -webkit-transform: translateX(0) translateY(0);
+			  transform: translateX(0) translateY(0);
+	}
+	100% {
+	  -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e;
+			  box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e;
+	  -webkit-transform: translateX(4px) translateY(-4px);
+			  transform: translateX(4px) translateY(-4px);
+	}
+  }
+  @keyframes shadow-pop-bl {
+	0% {
+	  -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+			  box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+	  -webkit-transform: translateX(0) translateY(0);
+			  transform: translateX(0) translateY(0);
+	}
+	100% {
+	  -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e;
+			  box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e;
+	  -webkit-transform: translateX(4px) translateY(-4px);
+			  transform: translateX(4px) translateY(-4px);
+	}
+  }
+  
 
 .btn-secondary {
 	background-color: #287D9F;
 }
 
 .btn-secondary:hover {
-	background-color: #5397b2;
+	background-color: #287D9F;
+	animation: shadow-pop-bl 0.3s ease-in both;
 }
 
 .btn-primary, .btn-secondary {
@@ -183,13 +205,7 @@ i {
 
 /* Reference */
 
-#fenetre {
-	background-image: url("Images_sites/Tokyo.jpg");
-	background-attachment: fixed;
-	background-position: top;
-	position: relative;
-	z-index: 75;
-}
+
 
 #textefenetre {
 	display: flex;

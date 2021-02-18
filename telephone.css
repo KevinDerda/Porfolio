@@ -115,3 +115,16 @@ input[type="checkbox"]:not(:checked)~ul {
 	position: relative;
 	z-index: 75;
 }
+
+#polaris{
+	display: none;
+}
+
+#fenetre {
+	background-image: url("Images_sites/tokyoresponsive.jpg");
+	background-attachment: fixed;
+	position: relative;
+	background-position: center;
+	z-index: 75;
+	background-size: 250%;
+}

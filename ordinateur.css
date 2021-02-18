@@ -69,3 +69,42 @@
 #formtelephone {
 	display: none;
 }
+
+#fenetre {
+	background-image: url("Images_sites/tokyo.jpg");
+	background-attachment: fixed;
+	position: relative;
+	background-position: center;
+	z-index: 75;
+	background-size: 200%;
+}
+
+#polaris
+{
+	        animation: rotate-in-2-tr-cw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes rotate-in-2-tr-cw {
+	0% {
+			  transform: rotate(-45deg);
+			  transform-origin: 100% 0%;
+	  opacity: 0;
+	}
+	100% {
+			  transform: rotate(0);
+			  transform-origin: 100% 0%;
+	  opacity: 1;
+	}
+  }
+  @keyframes rotate-in-2-tr-cw {
+	0% {
+			  transform: rotate(-45deg);
+			  transform-origin: 100% 0%;
+	  opacity: 0;
+	}
+	100% {
+			  transform: rotate(0);
+			  transform-origin: 100% 0%;
+	  opacity: 1;
+	}
+  }
+  
