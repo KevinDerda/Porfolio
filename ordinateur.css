@@ -1,7 +1,7 @@
 /* Debut et fin */
 
 #start {
-	height: 6vw;
+	height: 4vw;
 }
 
 #end {
@@ -9,50 +9,41 @@
 }
 
 /* Menu */
-
 .menu {
 	display: flex;
-	background-color: #215EB5;
-	padding-top: 3vw;
-	padding-bottom: 3vw;
+	flex-direction: column;
+	padding: 10px;
 	justify-content: space-around;
 	align-items: center;
 	position: fixed;
-	z-index: 1;
-	width: 100%;
-	height: 3vw;
-	top: 0px;
-	left: 0px;
+	top: calc(90px + 4vw);
+	right: 20px;
+	z-index: 150;
+	list-style: none;
+	background-color: #FFFFFF;
+	box-shadow: 0px 1px 1px black;
+	border-radius: 10px;
 }
 
-.menu li {
-	list-style-type: none;
-}
 
 .menu li a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 0.7vw;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	text-align: center;
+	box-shadow: 0px 1px 1px black;
 	background-color: #215EB5;
 	color: #FFFFFF;
-	font-family: Dosis;
+	font-family: 'Dosis';
 	font-weight: bold;
 	text-decoration: none;
-	border: none;
-	border-radius: 15px;
-	width: calc(50px + 7vw);
-	font-size: calc(10px + 1vw);
-}
-
-.menu li a:hover {
-	background-color: white;
-	color: black;
-}
-
-#burger_checkbox {
-	display: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
 }
 
 /* Blog */
@@ -79,65 +70,4 @@
 	background-size: 200%;
 }
 
-#polaris
-{
-	        animation: rotate-in-2-tr-cw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-@-webkit-keyframes rotate-in-2-tr-cw {
-	0% {
-			  transform: rotate(-45deg);
-			  transform-origin: 100% 0%;
-	  opacity: 0;
-	}
-	100% {
-			  transform: rotate(0);
-			  transform-origin: 100% 0%;
-	  opacity: 1;
-	}
-  }
-  @keyframes rotate-in-2-tr-cw {
-	0% {
-			  transform: rotate(-45deg);
-			  transform-origin: 100% 0%;
-	  opacity: 0;
-	}
-	100% {
-			  transform: rotate(0);
-			  transform-origin: 100% 0%;
-	  opacity: 1;
-	}
-  }
   
-  .lettre
-  {
-	animation: slide-in-blurred-left 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-  }
-
-  @-webkit-keyframes slide-in-blurred-left {
-	0% {
-			  transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-			  transform-origin: 100% 50%;
-			  filter: blur(40px);
-	  opacity: 0;
-	}
-	100% {
-			  transform: translateX(0) scaleY(1) scaleX(1);
-			  transform-origin: 50% 50%;
-			  filter: blur(0);
-	  opacity: 1;
-	}
-  }
-  @keyframes slide-in-blurred-left {
-	0% {
-			  transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-			  transform-origin: 100% 50%;
-			  filter: blur(40px);
-	  opacity: 0;
-	}
-	100% {
-			  transform: translateX(0) scaleY(1) scaleX(1);
-			  transform-origin: 50% 50%;
-			  filter: blur(0);
-	  opacity: 1;
-	}
-  }

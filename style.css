@@ -32,16 +32,80 @@ i {
 	font-size: 50px;
 }
 
-#breadfont
-{
-	font-family:'Open Sans';
+/* Menu */
+input[type="checkbox"]+label:before {
+	font-family: FontAwesome;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	padding: 20px;
+	border-radius: 100px;
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	top: 4.5vw;
+	right: 20px;
+	color: white;
+	border: none;
+	color: #FFFFFF;
+	box-shadow: 0px 1px 1px black;
+	cursor: pointer;
+	background-color: #215EB5;
+	z-index: 150;
 }
 
-#breadfont a
-{
+
+
+input[type="checkbox"]:not(:checked)+label:before {
+	content: "\f0c9";
+}
+
+input[type="checkbox"]:checked+label:before {
+	content: "\f00d";
+}
+
+input[type="checkbox"]:not(:checked)~ul {
+	display: none;
+}
+
+#burger_checkbox {
+	display: none;
+}
+
+.menu li a:hover {
+	animation: shadow-pop-bl3 0.3s ease-in both;
+	color:#FFFFFF;
+	background-color: #215EB5;
+}
+
+	@keyframes shadow-pop-bl3 {
+		0% {
+			box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+			transform: translateX(0) translateY(0);
+		}
+		100% {
+			box-shadow: 0px 1px #102f5a, 0px 2px #102f5a, 0px 3px #102f5a, 0px 4px #102f5a;
+			transform: translateX(0px) translateY(-4px);
+		}
+	}
+}
+
+.menu li {
+	list-style-type: none;
+}
+
+/* Bread */
+
+#breadfont {
+	font-family: 'Open Sans';
+}
+
+#breadfont a {
 	text-decoration: none;
 	color: #6931B5;
 }
+
 /* fond */
 
 #topwhite {
@@ -71,7 +135,7 @@ i {
 #title2 {
 	color: #6931B5;
 	font-family: 'Dosis';
-	font-size: calc(33px + 1vw);
+	font-size: calc(41px + 1vw);
 	text-align: center;
 	font-weight: 100;
 }
@@ -79,59 +143,17 @@ i {
 #title3 {
 	font-family: 'Open Sans';
 	text-align: center;
-	font-size: calc(21px + 1vw);
+	font-size: calc(35px + 0.5vw);
+	color: black;
+	font-weight: normal;
 }
 
-.moveright {
-	animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@-webkit-keyframes slide-in-right {
-	0% {
-		transform: translateX(1000px);
-		opacity: 0;
-	}
-	100% {
-		transform: translateX(0);
-		opacity: 1;
-	}
-}
-
-@keyframes slide-in-right {
-	0% {
-		transform: translateX(1000px);
-		opacity: 0;
-	}
-	100% {
-		transform: translateX(0);
-		opacity: 1;
-	}
-}
-
-.moveleft {
-	animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@-webkit-keyframes slide-in-left {
-	0% {
-		transform: translateX(-1000px);
-		opacity: 0;
-	}
-	100% {
-		transform: translateX(0);
-		opacity: 1;
-	}
-}
-
-@keyframes slide-in-left {
-	0% {
-		transform: translateX(-1000px);
-		opacity: 0;
-	}
-	100% {
-		transform: translateX(0);
-		opacity: 1;
-	}
+#title4 {
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: calc(30px + 0.5vw);
+	color: black;
+	font-weight: normal;
 }
 
 /* Boutons */
@@ -141,39 +163,22 @@ i {
 }
 
 .btn-primary:hover {
-	animation: shadow-pop-bl 0.3s ease-in both;
-			background-color: #932EAB;
+	animation: shadow-pop-bl1 0.3s ease-in both;
+	background-color: #932EAB;
 }
 
-@-webkit-keyframes shadow-pop-bl {
+
+@keyframes shadow-pop-bl1 {
 	0% {
-	  -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-			  box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-	  -webkit-transform: translateX(0) translateY(0);
-			  transform: translateX(0) translateY(0);
+		box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+		transform: translateX(0) translateY(0);
 	}
 	100% {
-	  -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e;
-			  box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e;
-	  -webkit-transform: translateX(4px) translateY(-4px);
-			  transform: translateX(4px) translateY(-4px);
+		box-shadow: 0px 1px #491655, 0px 2px #491655, 0px 3px #491655, 0px 4px #491655;
+		transform: translateX(0px) translateY(-4px);
 	}
-  }
-  @keyframes shadow-pop-bl {
-	0% {
-	  -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-			  box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-	  -webkit-transform: translateX(0) translateY(0);
-			  transform: translateX(0) translateY(0);
-	}
-	100% {
-	  -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e;
-			  box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e;
-	  -webkit-transform: translateX(4px) translateY(-4px);
-			  transform: translateX(4px) translateY(-4px);
-	}
-  }
-  
+}
+
 
 .btn-secondary {
 	background-color: #287D9F;
@@ -181,7 +186,18 @@ i {
 
 .btn-secondary:hover {
 	background-color: #287D9F;
-	animation: shadow-pop-bl 0.3s ease-in both;
+	animation: shadow-pop-bl2 0.3s ease-in both;
+}
+
+@keyframes shadow-pop-bl2 {
+	0% {
+		box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+		transform: translateX(0) translateY(0);
+	}
+	100% {
+		box-shadow: 0px 1px #143e4f, 0px 2px #143e4f, 0px 3px #143e4f, 0px 4px #143e4f;
+		transform: translateX(0px) translateY(-4px);
+	}
 }
 
 .btn-primary, .btn-secondary {
@@ -204,8 +220,6 @@ i {
 }
 
 /* Reference */
-
-
 
 #textefenetre {
 	display: flex;
@@ -247,13 +261,12 @@ i {
 	filter: drop-shadow(0px 5px 5px #000000);
 }
 
-.accordion-button:focus
-{
+.accordion-button:focus {
 	background-color: #215EB5;
 	color: white;
-  }
-  
-  .accordion-button:not(.collapsed){
+}
+
+.accordion-button:not(.collapsed) {
 	background-color: #215EB5;
 	color: white;
 	box-shadow: none;
@@ -263,7 +276,14 @@ i {
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23E8E8E8'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
-.accordion-button:focus::after
-{
+.accordion-button:focus::after {
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23E8E8E8'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-  }
+}
+
+#cookie-banner {
+	background-color: #932EAB;
+	color: white;
+	z-index: 500;
+	position: fixed;
+	bottom: 0px;
+}

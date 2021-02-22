@@ -10,7 +10,7 @@
  */
 function displayCookieBanner() {
   const cookieBanner = document.getElementById('cookie-banner')
-  cookieBanner.classList.toggle('show')
+  cookieBanner.classList.check('show')
 }
 
 /**

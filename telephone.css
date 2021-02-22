@@ -10,44 +10,6 @@
 
 /* Menu */
 
-input[type="checkbox"]+label:before {
-	font-family: FontAwesome;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 35px;
-	padding: 20px;
-	border-radius: 100px;
-	width: 70px;
-	height: 70px;
-	position: fixed;
-	top: 4.5vw;
-	right: 20px;
-	color: white;
-	border: none;
-	color: #FFFFFF;
-	box-shadow: 0px 1px 1px black;
-	cursor: pointer;
-	background-color: #215EB5;
-	z-index: 150;
-}
-
-input[type="checkbox"]:not(:checked)+label:before {
-	content: "\f0c9";
-}
-
-input[type="checkbox"]:checked+label:before {
-	content: "\f00d";
-}
-
-input[type="checkbox"]:not(:checked)~ul {
-	display: none;
-}
-
-#burger_checkbox {
-	display: none;
-}
-
 .menu {
 	display: flex;
 	flex-direction: column;
@@ -55,13 +17,13 @@ input[type="checkbox"]:not(:checked)~ul {
 	justify-content: space-around;
 	align-items: center;
 	position: fixed;
-	top: 90px;
-	right: 20px;
+	top: 120px;
+	right: 30px;
 	z-index: 150;
-}
-
-.menu li {
-	list-style-type: none;
+	list-style: none;
+	background-color: #FFFFFF;
+	box-shadow: 0px 1px 1px black;
+	border-radius: 10px;
 }
 
 .menu li a {
@@ -84,10 +46,7 @@ input[type="checkbox"]:not(:checked)~ul {
 	font-size: 20px;
 }
 
-.menu li a:hover {
-	background-color: white;
-	color: black;
-}
+
 
 /* Blog */
 
@@ -129,37 +88,6 @@ input[type="checkbox"]:not(:checked)~ul {
 	background-size: 250%;
 }
 
-.lettre
-  {
-	animation: slide-in-blurred-bottom 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-  }
-
-  @-webkit-keyframes slide-in-blurred-bottom {
-	0% {
-			  transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
-			  transform-origin: 50% 100%;
-			  filter: blur(40px);
-	  opacity: 0;
-	}
-	100% {
-			  transform: translateY(0) scaleY(1) scaleX(1);
-			  transform-origin: 50% 50%;
-			  filter: blur(0);
-	  opacity: 1;
-	}
-  }
-  @keyframes slide-in-blurred-bottom {
-	0% {
-			  transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
-			  transform-origin: 50% 100%;
-			  filter: blur(40px);
-	  opacity: 0;
-	}
-	100% {
-			  transform: translateY(0) scaleY(1) scaleX(1);
-			  transform-origin: 50% 50%;
-			  filter: blur(0);
-	  opacity: 1;
-	}
-  }
-  
+#map {
+	display: none;
+}
