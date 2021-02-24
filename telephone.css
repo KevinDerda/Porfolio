@@ -54,16 +54,7 @@
 	display: none;
 }
 
-.blogbutton
-{
-	border-radius: 50px;
-	top : 150px;
-	width: 70px;
-	height: 70px;
-	color: #FFFFFF;
-	background-color: #215EB5;
-	z-index: 125;
-}
+
 
 #formecran {
 	display: none;
