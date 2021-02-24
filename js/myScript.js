@@ -10,7 +10,7 @@
  */
 function displayCookieBanner() {
   const cookieBanner = document.getElementById('cookie-banner')
-  cookieBanner.classList.check('show')
+  cookieBanner.classList.toggle('show')
 }
 
 /**
@@ -19,5 +19,5 @@ function displayCookieBanner() {
 function hideCookieBanner() {
   localStorage.setItem('accept-cookie', true);
   const cookieBanner = document.getElementById('cookie-banner')
-  cookieBanner.classList.toggle('show')
+  cookieBanner.classList.toggle('block').style.display = 'none'
 }

@@ -58,7 +58,7 @@
 }
 
 #fenetre {
-	background-image: url("Images_sites/tokyo.jpg");
+	background-image: url("../Images_sites/tokyo.jpg");
 	background-attachment: fixed;
 	position: relative;
 	background-position: center;
@@ -67,7 +67,7 @@
 }
 
 .hachure {
-	background-image: url("Images_sites/hachure.jpg");
+	background-image: url("../Images_sites/hachure.jpg");
 	background-attachment: fixed;
 	position: relative;
 	background-position: center;

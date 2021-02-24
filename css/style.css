@@ -121,6 +121,14 @@ input[type="checkbox"]:not(:checked)~ul {
 	z-index: 100;
 }
 
+#botwhite{
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	position: relative;
+	z-index: 100;
+}
+
+
 /* Debut */
 
 #title1 {
