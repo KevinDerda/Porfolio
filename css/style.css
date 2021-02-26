@@ -56,7 +56,27 @@ input[type="checkbox"]+label:before {
 }
 
 
+.menu{
+	animation: swing-in-top-fwd 1s ease-in-out;
+}
 
+  @keyframes swing-in-top-fwd {
+	0% {
+	  -webkit-transform: rotateX(-100deg);
+			  transform: rotateX(-100deg);
+	  -webkit-transform-origin: top;
+			  transform-origin: top;
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: rotateX(0deg);
+			  transform: rotateX(0deg);
+	  -webkit-transform-origin: top;
+			  transform-origin: top;
+	  opacity: 1;
+	}
+  }
+  
 input[type="checkbox"]:not(:checked)+label:before {
 	content: "\f0c9";
 }
@@ -195,6 +215,7 @@ input[type="checkbox"]:not(:checked)~ul {
 	background-color: #287D9F;
 	animation: shadow-pop-bl2 0.3s ease-in both;
 }
+
 
 @keyframes shadow-pop-bl2 {
 	0% {

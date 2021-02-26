@@ -9,8 +9,8 @@
  * AFFICHER BANIERE
  */
 function displayCookieBanner() {
-  const cookieBanner = document.getElementById('cookie-banner')
-  cookieBanner.classList.toggle('show')
+  const cookieBanner = document.getElementById('cookie-banner');
+  cookieBanner.style.display = 'block';
 }
 
 /**
@@ -18,6 +18,8 @@ function displayCookieBanner() {
  */
 function hideCookieBanner() {
   localStorage.setItem('accept-cookie', true);
-  const cookieBanner = document.getElementById('cookie-banner')
-  cookieBanner.classList.toggle('block').style.display = 'none'
+  const cookieBanner = document.getElementById('cookie-banner');
+  cookieBanner.style.display = 'none';
 }
+}
+
