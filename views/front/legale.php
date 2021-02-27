@@ -1,0 +1,38 @@
+<?php ob_start(); ?>
+<section style="background-color: #FFFFFF" id="topwhite" class="py-3">
+    <div class="container text-center">
+        <h1 class="pb-3"> Mentions légales</h1>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb" id="breadfont">
+                <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Mentions légales</li>
+            </ol>
+        </nav>
+
+    </div>
+
+</section>
+
+
+<section style="background-color: #FFFFFF" id="botwhite" class="py-3">
+    <div class="container">
+        <p class="pb-3">Le site kd.fr est la propriété exclusive de Kévin Derda, qui l’édite.</p>
+        <h2 class="pb-3">HÉBERGEMENT</h2>
+        <p class="pb-3">Le site est hébergé par OVH</br>
+            https://www.ovh.com/fr/</br>
+            L’adresse de notre site est : https://kd.fr/</p>
+
+        <h2 class="pb-3">PROPRIÉTÉ INTELLECTUELLE</h2>
+        <p class="pb-3"> L’accès au site https://kd.fr/ vous confère un droit d’usage privé et non exclusif de ce
+            site. Tous
+            les articles, photographies et autres documents sur ce site sont la propriété de Kévin Derda ou sont
+            autorisés avec l’autorisation de leurs propriétaires, et sont soumis au droit d’auteur et autres droits
+            de propriété intellectuelle. L’utilisation frauduleuse de tout contenu du site Internet est totalement
+            interdite. Kévin Derda vous informe qu’il usera largement de ses droits de propriété intellectuelle pour
+            engager des poursuites, mêmes pénales, si nécessaires.</p>
+        </p>
+    </div>
+</section>
+<?php $content = ob_get_clean();
+require 'template.php';
+?>
