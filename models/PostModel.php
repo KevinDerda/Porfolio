@@ -66,11 +66,18 @@ class PostModel extends Manager {
      * @param $id
      * @param $title
      * @param $content
+     * @param $image
      * @return bool|\PDOStatement
      */
-    public function updatePost($id, $title, $content){
-        $req = $this->db->prepare('UPDATE posts SET title=?, content=? WHERE id=?');
-        $req->execute(array($title, $content, $id));
+    public function updatePost($id, $title, $content, $image){
+        $req = null;
+        if (!empty($image)) {
+            $req = $this->db->prepare('UPDATE posts SET title=?, content=?, image=? WHERE id=?');
+            $req->execute(array($title, $content, $image, $id));
+        } else {
+            $req = $this->db->prepare('UPDATE posts SET title=?, content=? WHERE id=?');
+            $req->execute(array($title, $content, $id));
+        }
         return $req;
     }
 }

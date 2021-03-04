@@ -141,9 +141,30 @@ class AdminController {
     function editPost($id){
         $allowTags = '<p><strong><em><u><h1><h2><h3><h4><h5><h6><img>';
         $allowTags .= '<li><ol><ul><span><div><br><ins><del>';
-        $episode = $this->postManager->updatePost($id, $_POST['title'], strip_tags(stripslashes($_POST['content']), $allowTags));
+        if (isset($_FILES['image'])) {
+            $errors = array();
+            $file_name = $_FILES['image']['name'];
+            $file_size =$_FILES['image']['size'];
+            $file_tmp =$_FILES['image']['tmp_name'];
+            $array = explode('.', $_FILES['image']['name']);
+            $file_ext=strtolower(end($array));
+            $extensions = array('jpeg', 'jpg', 'png');
+            if (in_array($file_ext, $extensions) === false) {
+                $errors[] = "extension not allowed, please choose a JPEG or PNG file";
+            }
+            if ($file_size > 2097152) {
+                $errors[] = 'File size must be inferior to 2 MB';
+            }
+            if (empty($errors) == true && isset($file_name)) {
+                move_uploaded_file($file_tmp, 'uploads/'.$file_name);
+                echo "Success";
+            } else {
+                print_r($errors);
+            }
+        }
+        $episode = $this->postManager->updatePost($id, $_POST['title'], strip_tags(stripslashes($_POST['content']), $allowTags), $file_name);
         if($episode === false){
-            throw new \Exception("Impossible d'éditer l'épisode l'épisode");
+            throw new \Exception("Impossible d'éditer l'article");
         } else {
             header('Location: /admin/posts/'.$id);
         }

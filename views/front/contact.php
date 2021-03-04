@@ -1,11 +1,29 @@
 <?php ob_start(); ?>
+    <!-- Meta -->
+    <title>Kévin Derda / Page de contact</title>
+    <meta name="description" content="Kévin Derda Lorem ipsum">
+    <meta name="keywords" content="Chef de projet, Chef de projets, Gestion de projet, Gestion de projets"/>
+    <meta name="author" content="Derda Kévin"/>
+    <meta name="copyright" content="Derda Kévin"/>
+    <meta name="robots" content="index"/>
+
+    <!-- Open Graph meta pour Facebook et LinkedIn -->
+    <meta property="og:title" content="Accueil"/>
+    <meta property="og:url" content="#"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:description" content="Kévin Derda Lorem ipsum"/>
+    <meta property="og:site_name" content="Kévin Derda Chef de projet"/>
+    <meta property="og:type" content="website"/>
+<?php $meta = ob_get_clean(); ?>
+
+<?php ob_start(); ?>
 <section style="background-color: #FFFFFF" id="topwhite" class="py-3">
 <div class="row pb-5">
 </div>
 </section>
     <section style="background-color: #FFFFFF" id="botwhite" class="py-3">
 
-        <form class="container-fluid" id="formecran">
+        <form class="container-fluid" id="formecran" method="POST" action="/email">
 
             <div class="row pt-2">
                 <h2 class="text-center">Lorem ipsum dolor</h2>
@@ -35,7 +53,7 @@
                             <div class="mb-3" style="width: 100%;">
                                 <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre email">
 
-                                    <input type="email" placeholder="Votre email"
+                                    <input type="email" placeholder="Votre email" name="email"
                                            class="border-top-0 border-end-0 border-start-0 border border-1"
                                            style="width: 100%; font-family: 'Open Sans';" required>
                                 </div>
@@ -43,7 +61,7 @@
 
                             <div class="mb-3 form-check p-0">
 
-                                <p><input type="checkbox" required> En soumettant ce formulaire, j'accepte que les
+                                <p><input type="checkbox" name="rgpd" required> En soumettant ce formulaire, j'accepte que les
                                     informations saisies dans ce formulaire soient utilisées, exploitées, traitées
                                     pour permettre de me recontacter, dans le cadre de la relation commerciale qui
                                     découle de cette demande.
@@ -56,7 +74,7 @@
 
                             <div class="mb-3" style="width: 100%; height: 100%;">
 
-                                <textarea rows="1" placeholder="Votre message"
+                                <textarea rows="1" name="content" placeholder="Votre message"
                                           class="border-top-0 border-end-0 border-start-0 border border-1"
                                           style="width: 100%; height: 85%; font-family: 'Open Sans';"
                                           required></textarea>

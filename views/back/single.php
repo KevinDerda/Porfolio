@@ -12,7 +12,7 @@ ob_start();
                     <h3 class="card-title">Mettre à jour un article</h3>
                 </div>
                 <div class="card-body">
-                    <form action=<?= '/admin/posts/'.$post['id'].'/editPost' ?> method="post">
+                    <form action="<?= '/admin/posts/'.$post['id'].'/editPost' ?>" method="post" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -32,7 +32,7 @@ ob_start();
                             </div>
                         </div>
                         <br>
-                        <button type="submit" class="btn btn-primary pull-right">Mettre à jour l'épisode</button>
+                        <button type="submit" class="btn btn-primary pull-right">Mettre à jour l'article</button>
                         <div class="clearfix"></div>
 
                     </form>

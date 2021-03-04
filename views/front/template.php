@@ -3,23 +3,9 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title>Kévin Derda / Chef de projet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Meta -->
-    <meta name="description" content="Kévin Derda Lorem ipsum">
-    <meta name="keywords" content="Chef de projet, Chef de projets, Gestion de projet, Gestion de projets"/>
-    <meta name="author" content="Derda Kévin"/>
-    <meta name="copyright" content="Derda Kévin"/>
-    <meta name="robots" content="index"/>
-
-    <!-- Open Graph meta pour Facebook et LinkedIn -->
-    <meta property="og:title" content="Accueil"/>
-    <meta property="og:url" content="#"/>
-    <meta property="og:image" content=""/>
-    <meta property="og:description" content="Kévin Derda Lorem ipsum"/>
-    <meta property="og:site_name" content="Kévin Derda Chef de projet"/>
-    <meta property="og:type" content="website"/>
+    <?= $meta; ?>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/public/img/Favicon/apple-touch-icon-57x57.png"/>
