@@ -1,4 +1,22 @@
 <?php ob_start(); ?>
+    <!-- Meta -->
+    <title>Kévin Derda / Chef de projet</title>
+    <meta name="description" content="Kévin Derda Lorem ipsum">
+    <meta name="keywords" content="Chef de projet, Chef de projets, Gestion de projet, Gestion de projets"/>
+    <meta name="author" content="Derda Kévin"/>
+    <meta name="copyright" content="Derda Kévin"/>
+    <meta name="robots" content="index"/>
+
+    <!-- Open Graph meta pour Facebook et LinkedIn -->
+    <meta property="og:title" content="Accueil"/>
+    <meta property="og:url" content="#"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:description" content="Kévin Derda Lorem ipsum"/>
+    <meta property="og:site_name" content="Kévin Derda Chef de projet"/>
+    <meta property="og:type" content="website"/>
+<?php $meta = ob_get_clean(); ?>
+
+<?php ob_start(); ?>
     <!-- LANDING -->
 
     <section style="background-color: #FFFFFF" id="topwhite">
@@ -162,8 +180,8 @@
                             <?php
                                 $i = 0; foreach($posts as $post): ?>
                                 <?php if ($i === 0) {$set_ = 'active'; } else { $set_ = ''; } ?>
-                                <a href="<?= '/blog/'. $post['id']; ?>">
-                                    <article class="carousel-item <?php echo $set_ ?>">
+                                <a class="carousel-item <?php echo $set_ ?>" href="<?= '/blog/'. $post['id']; ?>">
+                                    <article>
                                         <div class="card" style="width: auto;">
                                             <img src="/uploads/<?= $post['image'] ?>" class="card-img-top img-fluid" alt="ordinateur">
                                             <div class="card-body">
@@ -306,50 +324,52 @@
                 <div class="col-10 col-md-8 pt-3">
 
 
-                    <div class="row">
+                    <form method="POST" action="/email">
+                        <div class="row">
 
-                        <div class="col-12 pt-1 d-flex flex-column align-items-center justify-content-center">
+                            <div class="col-12 pt-1 d-flex flex-column align-items-center justify-content-center">
 
-                            <div class="my-3" style="width: 100%;">
-                                <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre nom">
+                                <div class="my-3" style="width: 100%;">
+                                    <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre nom">
 
-                                    <input class="input2 border-top-0 border-end-0 border-start-0 border border-1"
-                                           type="text" name="name" placeholder="Votre nom"
-                                           style="width: 100%; font-family: 'Open Sans';" required>
+                                        <input class="input2 border-top-0 border-end-0 border-start-0 border border-1"
+                                               type="text" name="name" placeholder="Votre nom"
+                                               style="width: 100%; font-family: 'Open Sans';" required>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="my-3" style="width: 100%;">
-                                <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre email">
+                                <div class="my-3" style="width: 100%;">
+                                    <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre email">
 
-                                    <input type="email" placeholder="Votre email"
-                                           class="border-top-0 border-end-0 border-start-0 border border-1"
-                                           style="width: 100%; font-family: 'Open Sans';" required>
+                                        <input type="email" name="email" placeholder="Votre email"
+                                               class="border-top-0 border-end-0 border-start-0 border border-1"
+                                               style="width: 100%; font-family: 'Open Sans';" required>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="my-3" style="width: 100%; height: 100%;">
+                                <div class="my-3" style="width: 100%; height: 100%;">
 
-                                <textarea rows="5" placeholder="Votre message"
+                                <textarea rows="5" placeholder="Votre message" name="content"
                                           class="border-top-0 border-end-0 border-start-0 border border-1"
                                           style="width: 100%; height: 100%; font-family: 'Open Sans';" required></textarea>
+                                </div>
+
                             </div>
 
-                        </div>
+                            <div class="my-3 form-check pt-3">
 
-                        <div class="my-3 form-check pt-3">
-
-                            <p> <input type="checkbox" required> En soumettant ce formulaire, j'accepte que les
-                                informations saisies dans ce formulaire soient utilisées, exploitées, traitées
-                                pour permettre de me recontacter, dans le cadre de la relation commerciale qui
-                                découle de cette demande.
-                            </p>
+                                <p> <input type="checkbox" name="rgpd" required> En soumettant ce formulaire, j'accepte que les
+                                    informations saisies dans ce formulaire soient utilisées, exploitées, traitées
+                                    pour permettre de me recontacter, dans le cadre de la relation commerciale qui
+                                    découle de cette demande.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn btn-primary">
+                                    Envoyer</button>
+                            </div>
                         </div>
-                        <div class="d-flex justify-content-end">
-                            <button type="submit" class="btn btn-primary">
-                                Envoyer</button>
-                        </div>
-                    </div>
+                    </form>
 
                 </div>
 

@@ -15,7 +15,7 @@ Autoloader::register();
 
 $router = new Router($_GET['url']);
 
-/**
+/**i
  * FRONT ROUTING
  */
 
@@ -35,9 +35,12 @@ $router->addGetRoute('/politique-confidentialite', 'Page#goToConfidentialite');
 /**
  * LOGIN AND LOGOUT ROUTES
  */
-$router->addGetRoute('/login', 'User#loginPage');
+$router->addGetRoute('/redaction', 'User#loginPage');
 $router->addGetRoute('/logout', 'User#logout');
-$router->addPostRoute('/login', 'User#validateLogin');
+$router->addPostRoute('/redaction', 'User#validateLogin');
+
+// FORMULAIRE
+$router->addPostRoute('/email', 'Page#sendEmail');
 
 /**
  * BACK ROUTING

@@ -1,5 +1,5 @@
 <?php
-$view = 'Épisodes';
+$view = 'Articles';
 ob_start();
 ?>
     <div class="row">
