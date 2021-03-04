@@ -57,7 +57,7 @@ input[type="checkbox"]+label:before {
 
 
 .menu{
-	animation: swing-in-top-fwd 1s ease-in-out;
+	animation: swing-in-top-fwd 0.4s ease-in-out;
 }
 
   @keyframes swing-in-top-fwd {

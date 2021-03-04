@@ -22,19 +22,19 @@
     <meta property="og:type" content="website"/>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/public/img/apple-touch-icon-57x57.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/img/apple-touch-icon-114x114.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/public/img/apple-touch-icon-72x72.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/img/apple-touch-icon-144x144.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/public/img/apple-touch-icon-60x60.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/public/img/apple-touch-icon-120x120.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/public/img/apple-touch-icon-76x76.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/public/img/apple-touch-icon-152x152.png"/>
-    <link rel="icon" type="image/png" href="/public/img/favicon-196x196.png" sizes="196x196"/>
-    <link rel="icon" type="image/png" href="/public/img/favicon-96x96.png" sizes="96x96"/>
-    <link rel="icon" type="image/png" href="/public/img/favicon-32x32.png" sizes="32x32"/>
-    <link rel="icon" type="image/png" href="/public/img/favicon-16x16.png" sizes="16x16"/>
-    <link rel="icon" type="image/png" href="/public/img/favicon-128.png" sizes="128x128"/>
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/public/img/Favicon/apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/img/Favicon/apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/public/img/Favicon/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/img/Favicon/apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/public/img/Favicon/apple-touch-icon-60x60.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/public/img/Favicon/apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/public/img/Favicon/apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/public/img/Favicon/apple-touch-icon-152x152.png"/>
+    <link rel="icon" type="image/png" href="/public/img/Favicon/favicon-196x196.png" sizes="196x196"/>
+    <link rel="icon" type="image/png" href="/public/img/Favicon/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/png" href="/public/img/Favicon/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="/public/img/Favicon/favicon-16x16.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="/public/img/Favicon/favicon-128.png" sizes="128x128"/>
     <meta name="application-name" content="&nbsp;"/>
     <meta name="msapplication-TileColor" content="#FFFFFF"/>
     <meta name="msapplication-TileImage" content="mstile-144x144.png"/>
@@ -87,6 +87,9 @@
     </div>
 </header>
 
+
+<!-- FOOTER -->
+
 <?= $content; ?>
 <footer>
     <div class="container-fluid" style="background-color: #215EB5;" id="end">
@@ -94,18 +97,20 @@
         <div class="row d-flex justify-content-center align-items-center px-5" id="footer">
 
             <div class="col-12 col-md-3 pt-1 px-2 text-center">
-                <a href="KDmentions-legales.html">Mentions légales</a>
+                <a href="/legale">Mentions légales</a>
             </div>
 
             <div class="col-12 col-md-4 pt-1 px-2 text-center">
-                <a href="KDpolitique-de-gestion-des-cookies.html">Politique de confidentialité</a>
+                <a href="/confidentialite">Politique de confidentialité</a>
             </div>
 
             <div class="col-12 col-md-5 pt-1 px-2 text-center">
-                <a href="KDpolitique-de-gestion-des-cookies.html">Politique de gestion des cookies</a>
+                <a href="/cookies">Politique de gestion des cookies</a>
             </div>
 
         </div>
+
+<!-- COOKIE -->
 
     </div>
     <div id="cookie-banner" class="alert alert-warning alert-dismissible fade container-fluid"

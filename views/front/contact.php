@@ -1,7 +1,11 @@
 <?php ob_start(); ?>
+<section style="background-color: #FFFFFF" id="topwhite" class="py-3">
+<div class="row pb-5">
+</div>
+</section>
     <section style="background-color: #FFFFFF" id="botwhite" class="py-3">
 
-        <div class="container-fluid" id="formecran">
+        <form class="container-fluid" id="formecran">
 
             <div class="row pt-2">
                 <h2 class="text-center">Lorem ipsum dolor</h2>
@@ -81,11 +85,11 @@
 
             </div>
 
-        </div>
+        </form>
 
         <!-- form telephone -->
 
-        <div class="container-fluid" id="formtelephone">
+        <form class="container-fluid" id="formtelephone">
 
             <div class="row pb-2">
 
@@ -165,7 +169,7 @@
                 </div>
 
             </div>
-        </div>
+        </form>
     </section>
 <?php $content = ob_get_clean();
 require 'template.php';
