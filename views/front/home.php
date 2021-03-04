@@ -118,7 +118,7 @@
                             </div>
 
                             <div class="col-6 col-md-6 d-flex justify-content-start">
-                                <a class="btn btn-secondary btn-lg" href="#" role="button">LinkedIn</a>
+                                <a class="btn btn-secondary btn-lg" href="https://www.linkedin.com/in/kevinderda/" target="_blank" role="button">LinkedIn</a>
                             </div>
                         </div>
 

@@ -1,176 +1,170 @@
 <?php ob_start(); ?>
 <section style="background-color: #FFFFFF" id="topwhite" class="py-3">
-<div class="row pb-5">
-</div>
+    <div class="container">
+        <h1 class="pb-3 text-center"> Contact</h1>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb" id="breadfont">
+                <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+        </nav>
+
+    </div>
 </section>
-    <section style="background-color: #FFFFFF" id="botwhite" class="py-3">
+<section style="background-color: #FFFFFF" id="botwhite" class="py-3">
 
-        <form class="container-fluid" id="formecran">
+    <form class="container-fluid" id="formecran">
 
-            <div class="row pt-2">
-                <h2 class="text-center">Lorem ipsum dolor</h2>
+        <div class="row pt-2">
+            <h2 class="text-center">Lorem ipsum dolor</h2>
+        </div>
+
+        <div class="row pb-2">
+
+            <div class="col-12 col-md-5 pt-3 ps-5 d-flex align-items-center justify-content-center animate__animated animate__backInLeft">
+                <img src="public/img/contact1.png" class="img-fluid" alt="Communication">
             </div>
 
-            <div class="row pb-2">
+            <div class="col-12 col-md-7 pt-3 pe-5">
 
-                <div class="col-12 col-md-5 pt-3 ps-5 d-flex align-items-center justify-content-center animate__animated animate__backInLeft">
-                    <img src="public/img/contact1.png" class="img-fluid" alt="Communication">
-                </div>
+                <div class="row">
 
-                <div class="col-12 col-md-7 pt-3 pe-5">
+                    <div class="col-12 col-md-6 pt-3 d-flex flex-column align-items-center justify-content-center">
 
-                    <div class="row">
+                        <div class="mb-3" style="width: 100%;">
+                            <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre nom">
 
-                        <div class="col-12 col-md-6 pt-3 d-flex flex-column align-items-center justify-content-center">
-
-                            <div class="mb-3" style="width: 100%;">
-                                <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre nom">
-
-                                    <input class="input2 border-top-0 border-end-0 border-start-0 border border-1"
-                                           type="text" name="name" placeholder="Votre nom"
-                                           style="width: 100%; font-family: 'Open Sans';" required>
-                                </div>
+                                <input class="input2 border-top-0 border-end-0 border-start-0 border border-1" type="text" name="name" placeholder="Votre nom" style="width: 100%; font-family: 'Open Sans';" required>
                             </div>
-
-                            <div class="mb-3" style="width: 100%;">
-                                <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre email">
-
-                                    <input type="email" placeholder="Votre email"
-                                           class="border-top-0 border-end-0 border-start-0 border border-1"
-                                           style="width: 100%; font-family: 'Open Sans';" required>
-                                </div>
-                            </div>
-
-                            <div class="mb-3 form-check p-0">
-
-                                <p><input type="checkbox" required> En soumettant ce formulaire, j'accepte que les
-                                    informations saisies dans ce formulaire soient utilisées, exploitées, traitées
-                                    pour permettre de me recontacter, dans le cadre de la relation commerciale qui
-                                    découle de cette demande.
-                                </p>
-                            </div>
-
                         </div>
 
-                        <div class="col-12 col-md-6 pt-3 d-flex justify-content-center">
+                        <div class="mb-3" style="width: 100%;">
+                            <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre email">
 
-                            <div class="mb-3" style="width: 100%; height: 100%;">
-
-                                <textarea rows="1" placeholder="Votre message"
-                                          class="border-top-0 border-end-0 border-start-0 border border-1"
-                                          style="width: 100%; height: 85%; font-family: 'Open Sans';"
-                                          required></textarea>
+                                <input type="email" placeholder="Votre email" class="border-top-0 border-end-0 border-start-0 border border-1" style="width: 100%; font-family: 'Open Sans';" required>
                             </div>
+                        </div>
 
+                        <div class="mb-3 form-check p-0">
+
+                            <p><input type="checkbox" required> En soumettant ce formulaire, j'accepte que les
+                                informations saisies dans ce formulaire soient utilisées, exploitées, traitées
+                                pour permettre de me recontacter, dans le cadre de la relation commerciale qui
+                                découle de cette demande.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 pt-3 d-flex justify-content-center">
+
+                        <div class="mb-3" style="width: 100%; height: 100%;">
+
+                            <textarea rows="1" placeholder="Votre message" class="border-top-0 border-end-0 border-start-0 border border-1" style="width: 100%; height: 85%; font-family: 'Open Sans';" required></textarea>
                         </div>
 
                     </div>
 
                 </div>
 
+            </div>
+
+        </div>
+
+        <div class="row pb-5">
+
+            <div class="col-5 pt-1">
+            </div>
+
+            <div class="col-6 pt-1 d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary ">Envoyer</button>
+            </div>
+
+            <div class="col-1 pt-1">
+
+            </div>
+
+        </div>
+
+    </form>
+
+    <!-- form telephone -->
+
+    <form class="container-fluid" id="formtelephone">
+
+        <div class="row pb-2">
+
+            <div class="col-2 pt-1">
+
+            </div>
+
+            <div class="col-8 pt-3 d-flex align-items-center justify-content-center animate__animated animate__backInUp">
+                <img src="public/img/contact1.png" class="img-fluid" alt="Communication">
+            </div>
+
+            <div class="col-2 pt-1">
+
+            </div>
+
+            <div class="row pt-5">
+                <h2 class="text-center">Lorem ipsum dolor</h2>
             </div>
 
             <div class="row pb-5">
 
-                <div class="col-5 pt-1">
+                <div class="col-1 col-md-2 pt-5">
                 </div>
 
-                <div class="col-6 pt-1 d-flex justify-content-end">
-                    <button type="submit" class="btn btn-primary ">Envoyer</button>
-                </div>
-
-                <div class="col-1 pt-1">
-
-                </div>
-
-            </div>
-
-        </form>
-
-        <!-- form telephone -->
-
-        <form class="container-fluid" id="formtelephone">
-
-            <div class="row pb-2">
-
-                <div class="col-2 pt-1">
-
-                </div>
-
-                <div class="col-8 pt-3 d-flex align-items-center justify-content-center animate__animated animate__backInUp">
-                    <img src="public/img/contact1.png" class="img-fluid" alt="Communication">
-                </div>
-
-                <div class="col-2 pt-1">
-
-                </div>
-
-                <div class="row pt-5">
-                    <h2 class="text-center">Lorem ipsum dolor</h2>
-                </div>
-
-                <div class="row pb-5">
-
-                    <div class="col-1 col-md-2 pt-5">
-                    </div>
-
-                    <div class="col-10 col-md-8 pt-3">
+                <div class="col-10 col-md-8 pt-3">
 
 
-                        <div class="row">
+                    <div class="row">
 
-                            <div class="col-12 pt-1 d-flex flex-column align-items-center justify-content-center">
+                        <div class="col-12 pt-1 d-flex flex-column align-items-center justify-content-center">
 
-                                <div class="my-3" style="width: 100%;">
-                                    <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre nom">
+                            <div class="my-3" style="width: 100%;">
+                                <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre nom">
 
-                                        <input class="input2 border-top-0 border-end-0 border-start-0 border border-1"
-                                               type="text" name="name" placeholder="Votre nom"
-                                               style="width: 100%; font-family: 'Open Sans';" required>
-                                    </div>
+                                    <input class="input2 border-top-0 border-end-0 border-start-0 border border-1" type="text" name="name" placeholder="Votre nom" style="width: 100%; font-family: 'Open Sans';" required>
                                 </div>
-
-                                <div class="my-3" style="width: 100%;">
-                                    <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre email">
-
-                                        <input type="email" placeholder="Votre email"
-                                               class="border-top-0 border-end-0 border-start-0 border border-1"
-                                               style="width: 100%; font-family: 'Open Sans';" required>
-                                    </div>
-                                </div>
-
-                                <div class="my-3" style="width: 100%; height: 100%;">
-
-                                <textarea rows="5" placeholder="Votre message"
-                                          class="border-top-0 border-end-0 border-start-0 border border-1"
-                                          style="width: 100%; height: 100%; font-family: 'Open Sans';"
-                                          required></textarea>
-                                </div>
-
                             </div>
 
-                            <div class="my-3 form-check pt-3">
+                            <div class="my-3" style="width: 100%;">
+                                <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre email">
 
-                                <p><input type="checkbox" required> En soumettant ce formulaire, j'accepte que les
-                                    informations saisies dans ce formulaire soient utilisées, exploitées, traitées
-                                    pour permettre de me recontacter, dans le cadre de la relation commerciale qui
-                                    découle de cette demande.
-                                </p>
+                                    <input type="email" placeholder="Votre email" class="border-top-0 border-end-0 border-start-0 border border-1" style="width: 100%; font-family: 'Open Sans';" required>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-end">
-                                <button type="submit" class="btn btn-primary">
-                                    Envoyer
-                                </button>
+
+                            <div class="my-3" style="width: 100%; height: 100%;">
+
+                                <textarea rows="5" placeholder="Votre message" class="border-top-0 border-end-0 border-start-0 border border-1" style="width: 100%; height: 100%; font-family: 'Open Sans';" required></textarea>
                             </div>
+
                         </div>
 
+                        <div class="my-3 form-check pt-3">
+
+                            <p><input type="checkbox" required> En soumettant ce formulaire, j'accepte que les
+                                informations saisies dans ce formulaire soient utilisées, exploitées, traitées
+                                pour permettre de me recontacter, dans le cadre de la relation commerciale qui
+                                découle de cette demande.
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary">
+                                Envoyer
+                            </button>
+                        </div>
                     </div>
 
                 </div>
 
             </div>
-        </form>
-    </section>
+
+        </div>
+    </form>
+</section>
 <?php $content = ob_get_clean();
 require 'template.php';
 

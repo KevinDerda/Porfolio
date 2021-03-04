@@ -19,7 +19,7 @@
                 <div class="col-12 col-md-3 text-center" style="background-color: #FFFFFF;">
                     <div class="row ">
                         <div class="col-6 col-md-12 p-3 d-flex justify-content-center">
-                            <a class="btn btn-primary btn-lg" href="/" role="button">Parcours</a>
+                            <a class="btn btn-primary btn-lg" href="/parcours" role="button">Parcours</a>
                         </div>
                         <div class="col-6 col-md-12 p-3 d-flex justify-content-center">
                             <a class="btn btn-secondary btn-lg" href="/contact" role="button">Contact</a>

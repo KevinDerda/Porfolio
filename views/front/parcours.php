@@ -24,11 +24,11 @@
                     <div class="row ">
 
                         <div class="col-6 col-md-12 p-3 d-flex justify-content-center">
-                            <a class="btn btn-primary btn-lg" href="/" role="button">Références</a>
+                            <a class="btn btn-primary btn-lg" href="/references" role="button">Références</a>
                         </div>
 
                         <div class="col-6 col-md-12 p-3 d-flex justify-content-center">
-                            <a class="btn btn-secondary btn-lg" href="#" role="button">LinkedIn</a>
+                            <a class="btn btn-secondary btn-lg" href="https://www.linkedin.com/in/kevinderda/" target="_blank" role="button">LinkedIn</a>
                         </div>
 
                     </div>
