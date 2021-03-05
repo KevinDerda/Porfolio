@@ -180,13 +180,13 @@
                             <?php
                                 $i = 0; foreach($posts as $post): ?>
                                 <?php if ($i === 0) {$set_ = 'active'; } else { $set_ = ''; } ?>
-                                <a class="carousel-item <?php echo $set_ ?>" href="<?= '/blog/'. $post['id']; ?>">
+                                <a class="carousel-item <?php echo $set_ ?>" href="<?= '/blog/'. $post['id']; ?>" style="text-decoration:none">
                                     <article>
                                         <div class="card" style="width: auto;">
                                             <img src="/uploads/<?= $post['image'] ?>" class="img-fluid imageblog" alt="ordinateur">
                                             <div class="card-body">
-                                                <h3 class="mt-3" style="text-decoration:none"><?= $post['title'] ?></h3>
-                                                <p class="card-text lh-lg" style="text-decoration:none">
+                                                <h3 class="mt-3"><?= $post['title'] ?></h3>
+                                                <p class="card-text lh-lg">
                                                     <?= substr(strip_tags($post['content']), 0, 50)."..."?>
                                                 </p>
                                             </div>
