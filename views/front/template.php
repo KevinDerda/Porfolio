@@ -83,11 +83,11 @@
         <div class="row d-flex justify-content-center align-items-center px-5" id="footer">
 
             <div class="col-12 col-md-3 pt-1 px-2 text-center">
-                <a href="/legale">Mentions légales</a>
+                <a href="/legales">Mentions légales</a>
             </div>
 
             <div class="col-12 col-md-4 pt-1 px-2 text-center">
-                <a href="/confidentialite">Politique de confidentialité</a>
+                <a href="/politique-confidentialite">Politique de confidentialité</a>
             </div>
 
             <div class="col-12 col-md-5 pt-1 px-2 text-center">
