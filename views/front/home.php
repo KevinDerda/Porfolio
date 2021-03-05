@@ -173,7 +173,7 @@
                 <div class="col-12 col-md-7 px-5 d-flex align-items-center justify-content-center">
                     <img src="/public/img/blog.png" class="img-fluid" alt="Blog" id=blogecran>
                 </div>
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5 px-5 px-md-0">
                     <div id="carouselExampleIndicators" class="carousel slide wow animate__animated animate__fadeInRight" data-bs-ride="carousel">
 
                         <div class="carousel-inner">
@@ -183,11 +183,11 @@
                                 <a class="carousel-item <?php echo $set_ ?>" href="<?= '/blog/'. $post['id']; ?>">
                                     <article>
                                         <div class="card" style="width: auto;">
-                                            <img src="/uploads/<?= $post['image'] ?>" class="card-img-top img-fluid" alt="ordinateur">
+                                            <img src="/uploads/<?= $post['image'] ?>" class="img-fluid imageblog" alt="ordinateur">
                                             <div class="card-body">
-                                                <h3 class="mt-3"><?= $post['title'] ?></h3>
-                                                <p class="card-text lh-lg">
-                                                    <?= substr(strip_tags($post['content']), 0, 50)."..." ?>
+                                                <h3 class="mt-3" style="text-decoration:none"><?= $post['title'] ?></h3>
+                                                <p class="card-text lh-lg" style="text-decoration:none">
+                                                    <?= substr(strip_tags($post['content']), 0, 50)."..."?>
                                                 </p>
                                             </div>
                                         </div>

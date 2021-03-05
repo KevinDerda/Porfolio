@@ -27,6 +27,10 @@ class PageController {
         require 'views/front/confidentialite.php';
     }
 
+    function goToBlog() {
+        require 'views/front/blog.php';
+    }
+
     /**
      * Send an email
      */

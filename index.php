@@ -31,6 +31,7 @@ $router->addGetRoute('/cookies', 'Page#goToCookies');
 $router->addGetRoute('/legales', 'Page#goToLegales');
 $router->addGetRoute('/parcours', 'Page#goToParcours');
 $router->addGetRoute('/politique-confidentialite', 'Page#goToConfidentialite');
+$router->addGetRoute('/blog', 'Page#goToBlog');
 
 /**
  * LOGIN AND LOGOUT ROUTES
