@@ -2,7 +2,18 @@
 
 namespace Controllers;
 
+use Models\PostModel;
+
 class PageController {
+    private $postManager;
+
+    /**
+     * HomeController constructor.
+     */
+    public function __construct(){
+        $this->postManager = new PostModel();
+    }
+
     function goToContact() {
         require 'views/front/contact.php';
     }
@@ -28,7 +39,14 @@ class PageController {
     }
 
     function goToBlog() {
+        $posts = $this->postManager->getPosts()->fetchAll();
         require 'views/front/blog.php';
+    }
+
+    function goToSinglePost($id) {
+        $posts = $this->postManager->getPosts()->fetchAll();
+        $post = $this->postManager->getPost($id);
+        require 'views/front/single.php';
     }
 
     /**
@@ -41,7 +59,7 @@ class PageController {
             $email = $_POST['email'];
             $message = $_POST['content'];
             $rgpd = $_POST['rgpd'];
-            if (!empty($name)) {
+            if (empty($name)) {
                 $errors[] = 'Le nom est vide';
             }
             if (empty($email)) {
@@ -58,6 +76,7 @@ class PageController {
             if (!empty($errors)) {
                 $allErrors = join('<br/', $errors);
                 $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+                print_r($errorMessage);
             } else {
                 $toEmail = 'reykozz15@gmail.com';
                 $emailSubject = 'Nouveau message depuis le site';

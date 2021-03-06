@@ -21,8 +21,6 @@ $router = new Router($_GET['url']);
 
 //GET METHOD
 $router->addGetRoute('/', 'Home#getPosts');
-$router->addGetRoute('/blog/:id', 'Single#getPost');
-
 
 //PAGE CUSTOM
 $router->addGetRoute('/contact', 'Page#goToContact');
@@ -32,6 +30,7 @@ $router->addGetRoute('/legales', 'Page#goToLegales');
 $router->addGetRoute('/parcours', 'Page#goToParcours');
 $router->addGetRoute('/politique-confidentialite', 'Page#goToConfidentialite');
 $router->addGetRoute('/blog', 'Page#goToBlog');
+$router->addGetRoute('/blog/:id', 'Page#goToSinglePost');
 
 /**
  * LOGIN AND LOGOUT ROUTES

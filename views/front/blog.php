@@ -49,63 +49,31 @@
 </section>
 <section style="background-color: #FFFFFF" id="botwhite" class="py-3">
     <div class="container px-4">
-        <div class="row my-3">
-            <div class="col-1 d-md-none">
-            </div>
-            <div class="col-10 col-md-4 ">
-                <img src="public/img/blog1.jpg" class="img-fluid imageblog" alt="...">
-            </div>
-            <div class="col-1 d-md-none">
-            </div>
-            <div class="col-1 d-md-none">
-            </div>
-            <div class="col-10 col-md-8 d-flex align-items-center">
-                <div class="card-body">
-                    <h2 class="display-5 card-title">Card title</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <?php foreach($posts as $post): ?>
+            <a href="/blog/<?= $post['id'] ?>" style="text-decoration: none">
+                <div class="row my-3">
+                    <div class="col-1 d-md-none">
+                    </div>
+                    <div class="col-10 col-md-4 ">
+                        <img src="/uploads/<?= $post['image'] ?>" class="img-fluid imageblog" alt="...">
+                    </div>
+                    <div class="col-1 d-md-none">
+                    </div>
+                    <div class="col-1 d-md-none">
+                    </div>
+                    <div class="col-10 col-md-8 d-flex align-items-center">
+                        <div class="card-body">
+                            <h2 class="display-5 card-title"><?= $post['title'] ?></h2>
+                            <p class="card-text" style="color: black">
+                                <?= substr(strip_tags($post['content']), 0, 200)."..."?>
+                            </p>
+                        </div>
+                        <div class="col-1 d-md-none">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-1 d-md-none">
-                </div>
-            </div>
-        </div>
-        <div class="row my-3">
-            <div class="col-1 d-md-none">
-            </div>
-            <div class="col-10 col-md-4 ">
-                <img src="public/img/blog1.jpg" class="img-fluid imageblog" alt="...">
-            </div>
-            <div class="col-1 d-md-none">
-            </div>
-            <div class="col-1 d-md-none">
-            </div>
-            <div class="col-10 col-md-8 d-flex align-items-center">
-                <div class="card-body">
-                    <h2 class="display-5 card-title">Card title</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <div class="col-1 d-md-none">
-                </div>
-            </div>
-        </div>
-        <div class="row my-3">
-            <div class="col-1 d-md-none">
-            </div>
-            <div class="col-10 col-md-4 ">
-                <img src="public/img/blog1.jpg" class="img-fluid imageblog" alt="...">
-            </div>
-            <div class="col-1 d-md-none">
-            </div>
-            <div class="col-1 d-md-none">
-            </div>
-            <div class="col-10 col-md-8 d-flex align-items-center">
-                <div class="card-body">
-                    <h2 class="display-5 card-title">Card title</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <div class="col-1 d-md-none">
-                </div>
-            </div>
-        </div>
+            </a>
+        <?php endforeach; ?>
     </div>
 </section>
 <?php $content = ob_get_clean();
