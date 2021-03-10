@@ -78,9 +78,8 @@
 
                 <div class="col d-flex flex-column text-center">
                     <h2 class="display-4">Gestion de projets</h2>
-                    <p class="lh-lg px-3">J'ai 6 ans d'expérience dans la gestion de projets en France et à
-                        l'internationnal. Diplomé et futur diplomé dans le domaine du digital et de la production
-                        audiovisuel, je réponds à vos besoins en tant que Chef de projet polyvalent.</p>
+                    <p class="lh-lg px-3">7 ans d’expérience dans la gestion de projets en France et à l’international. Organisé et attentif aux détails, 
+                    je cherche toujours à maximiser le potentiel des projets, tout en cherchant la meilleur rentabilité budgétaire possible et toujours dans le respect des plannings . J’ai à cœur d’anticiper et de résoudre les problèmes et les conflits pour permettre aux équipes de travailler dans les meilleures conditions.</p>
                 </div>
 
             </div>
@@ -91,14 +90,13 @@
                 <div class="col-12 col-md-4 d-flex flex-column text-center py-2">
                     <i class="fas fa-project-diagram py-3 wow animate__animated animate__fadeInUp"></i>
                     <h3>Méthodologie</h3>
-                    <p class="lh-lg px-3">Gestion de projet agile, scrum, méthode Kanban ou diagramme de Gantt, je
-                        m'adapte selon les besoins et les objectifs d'un projet.</p>
+                    <p class="lh-lg px-3">Gestion de projet agile, scrum, méthode Kanban ou diagramme de Gantt, Je m'imprégne de vos problématiques métiers et vous propose des solutions adaptées à vos besoins spécifiques.</p>
                 </div>
 
                 <div class="col-12 col-md-4 d-flex flex-column text-center py-2">
                     <i class="fas fa-chess py-3 wow animate__animated animate__fadeInUp"></i>
                     <h3>Stratégie</h3>
-                    <p class="lh-lg px-3">Dans le respect des budgets et des plannings, j'interviens à n'importe quelle
+                    <p class="lh-lg px-3">Dans le respect des plannings et pouvant gérer des budgets dépassant le million d'euros, j'interviens à n'importe quelle
                         étape d'un projet, afin d'optimiser la stratégie de production.</p>
                 </div>
 
@@ -106,7 +104,7 @@
                     <i class="fas fa-pencil-ruler py-3 wow animate__animated animate__fadeInUp"></i>
                     <h3>Compétences</h3>
                     <p class="lh-lg px-3">Compétent dans les domaines du Développement Web, d'Application, de Design UI
-                        et UX, de Marketing Digital, de SEO et de Production Audiovisuel.</p>
+                        et UX, de Marketing Digital, de SEO et dans la Production Audiovisuelle.</p>
                 </div>
 
             </div>
@@ -125,7 +123,7 @@
                     <div class="wow animate__animated animate__fadeInLeft">
 
                         <h2 class="display-4">Références</h2>
-                        <p class="px-3 lh-lg">Mon travail m'a amené à coordonner des équipes sur des projets
+                        <p class="px-3 lh-lg">Mon travail m'a déjà amené à coordonner des équipes sur des projets
                             internationnaux repparties sur plusieurs pays. J'ai collaboré avec des grands groupe
                             Francais ou étranger sur de nombreuses typologie de projets. </p>
 

@@ -32,6 +32,26 @@ i {
 	font-size: 50px;
 }
 
+.italic
+{
+	font-style: italic;
+}
+
+.liref{
+	color : #215EB5;
+	list-style: inside;
+}
+li span{
+	font-family: 'Open Sans';
+	color: black;
+}
+
+.ulref
+{
+	list-style: none;
+}
+
+
 /* Menu */
 input[type="checkbox"]+label:before {
 	font-family: FontAwesome;

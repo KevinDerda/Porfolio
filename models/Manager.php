@@ -12,7 +12,7 @@ class Manager {
     private $_host = 'localhost';
     private $_dbname = 'portfolio';
     private $_username = 'root';
-    private $_password = '';
+    private $_password = 'root';
 
     /**
      * Connexion to database

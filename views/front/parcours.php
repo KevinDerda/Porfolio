@@ -31,11 +31,9 @@
 
                 <div class="col-12 col-md-9 d-flex align-items-center" style="background-color: #FFFFFF;">
 
-                    <p class="px-3 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras incongue
-                        tellus.
-                        Vestibulum at
-                        tortor
-                        posuere, hendrerit felis quis, condimentum nunc. Nulla facilisi.</p>
+                    <p class="px-3 lh-lg">Diplômé et futur diplômé dans le domaine du digital et de la production audiovisuelle. J'ai accompagné durant 7 années  différentes sociétés dans la réalisation de leurs projets. 
+                    Organisé et travailleur, je sais développer et gérer une idée, de ses prémices à
+son rendu.</p>
                 </div>
 
                 <div class="col-12 col-md-3 text-center" style="background-color: #FFFFFF;">
@@ -65,7 +63,7 @@
 
                 <div class="col-12 col-md-9">
 
-                    <h2 class="pb-3"> Explication</h2>
+                    <h2 class="pb-3"> Expériences professionnelles</h2>
 
                     <div class="accordion accordion-flush pb-5" id="accordionFlushExample">
 
@@ -80,10 +78,16 @@
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                  aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <p>Placeholder content for this accordion, which is intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the first
-                                        item's
-                                        accordion body.</p>
+                               
+                                <uL class="liref">
+            
+                                <li><span>Gestion de projet agile avec le modèle Scrum</span></li>
+                                <li><span>Création site professionnel avec WordPress 5</span></li>
+                                <li><span>Création de maquette UX Design</span></li>
+                                <li><span>Marketing digital : Etude de marché, Plan Marketing, SEO, Google analytics...</span></li>
+                                <li><span>Audit qualité web et analyse des risques</span></li>
+                                </ul>
+                         
                                 </div>
                             </div>
                         </div>
@@ -99,11 +103,19 @@
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                  aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <p>Placeholder content for this accordion, which is intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the second
-                                        item's
-                                        accordion body. Let's imagine this being filled with some actual content.
-                                    </p>
+                                    
+                                    
+                                <p>Direction de la production de vingt-deux projets documentaires et d’un plateau télé pour le groupe M6, Arte, Canal +, TCM et Ciné + en France et à l’international (Asie, Amérique, Europe…). Création et direction de 2 évènementiels. Voir <a href="/references">références</a></p>
+                                
+                                <uL class="liref">
+            
+            <li><span>Réalisation des business plans selon les différentes options de financements</span></li>
+            <li><span>En charge des négociations clients et partenaires financiers</span></li>
+            <li><span>Définition du cahier des charges et suivi qualité</span></li>
+            <li><span>Direction de la qualité opérationnelle : maintien d’une bonne réputation</span></li>
+            <li><span>Recrutement et management des équipes (150 pers. en 3 ans)</span></li>
+            <li><span>Suivi et négociation des droits avec les sociétés de droits et les avocats</span></li>
+            </ul>
                                 </div>
                             </div>
                         </div>
@@ -119,15 +131,17 @@
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                  aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <p>Placeholder content for this accordion, which is intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third
-                                        item's
-                                        accordion body. Nothing more exciting happening here in terms of content,
-                                        but
-                                        just
-                                        filling up the space to make it look, at least at first glance, a bit more
-                                        representative of how this would look in a real-world application.</p>
-                                </div>
+                                <p>Accompagnement à la gestion des tournages et gestion des budgets.</p>
+                                
+                                <uL class="liref">
+            
+            <li><span>Conduite budgétaire des projets (500k €) avec suivi des objectifs de rentabilité</span></li>
+            <li><span>Gestion RH selon les conventions collectives audiovisuelles et cinéma : Gestion des paies hebdomadaires et mensuelles (100 fiches de paies hebdomadaires</span></li>
+            <li><span>Recherche et mise en place de solutions pour le respect des budgets</span></li>
+            <li><span>Préparation des voyages et de l’accueil des équipes en France ou à l’étranger (vol, train, taxi, VTC, location de voitures, …)</span></li>
+
+            </ul>
+        </div>
                             </div>
                         </div>
 
@@ -136,41 +150,13 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseFor" aria-expanded="false"
                                         aria-controls="flush-collapseThree">
-                                    2013-2014 / Master 1 audiovisuel
+                                    2010-2014 / Master et Licence – Université Lumière Lyon 2
                                 </button>
                             </h3>
                             <div id="flush-collapseFor" class="accordion-collapse collapse"
                                  aria-labelledby="flush-headingFor" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <p>Placeholder content for this accordion, which is intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third
-                                        item's
-                                        accordion body. Nothing more exciting happening here in terms of content,
-                                        but just
-                                        filling up the space to make it look, at least at first glance, a bit more
-                                        representative of how this would look in a real-world application.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h3 class="accordion-header" id="flush-headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                        aria-controls="flush-collapseThree">
-                                    2010-2013 / Licence audio
-                                </button>
-                            </h3>
-                            <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                 aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>Placeholder content for this accordion, which is intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third
-                                        item's
-                                        accordion body. Nothing more exciting happening here in terms of content,
-                                        but just
-                                        filling up the space to make it look, at least at first glance, a bit more
-                                        representative of how this would look in a real-world application.</p>
+                                    <p>Études cinématographiques et audiovisuelles (spécialité production)</p>
                                 </div>
                             </div>
                         </div>
@@ -184,17 +170,24 @@
                 </div>
             </div>
 
-            <h2 class="pb-5"> Explication 2</h2>
+            <h2 class="pb-5"> Compétences</h2>
 
             <div class="row pb-3">
                 <div class="col-12 col-md-4 pb-3">
                     <div class="card">
                         <div class="card-header" style="background-color: #215EB5;">
-                            <h3 style="color: #FFFFFF;">Compétences</h3>
+                            <h3 style="color: #FFFFFF;">Logiciels </h3>
                         </div>
                         <div class="card-body">
                             <blockquote class="blockquote mb-0">
-                                <p>A well-known quote, contained in a blockquote element.</p>
+                                <p><ul class="liref">
+                                <li><span style="font-size: 15px;">Suite Microsoft (Excel, Word, Powerpoint)</span></li>
+                                <li><span style="font-size: 15px;">Google Workspace</span></li>
+                                <li><span style="font-size: 15px;">Adobe Photoshop</span></li>
+                                <li><span style="font-size: 15px;">Adobe InDesign</span></li>
+                                <li><span style="font-size: 15px;">Adobe Premiere Pro</span></li>
+                                <li><span style="font-size: 15px;">Final Cut Pro</span></li>
+                            </p>
 
                             </blockquote>
                         </div>
@@ -203,12 +196,20 @@
                 <div class="col-12 col-md-4 pb-3">
                     <div class="card">
                         <div class="card-header" style="background-color: #215EB5;">
-                            <h3 style="color: #FFFFFF;">Compétences</h3>
+                            <h3 style="color: #FFFFFF;">Hard skills</h3>
                         </div>
                         <div class="card-body">
-                            <blockquote class="blockquote mb-0">
-                                <p>A well-known quote, contained in a blockquote element.</p>
-
+                            <blockquote class="blockquote mb-0">    
+                                <p><ul class="liref">
+                                <li><span style="font-size: 15px;">HTML</span></li>
+                                <li><span style="font-size: 15px;">CSS</span></li>
+                                <li><span style="font-size: 15px;">Wireframe</span></li>
+                                <li><span style="font-size: 15px;">Github</span></li>
+                                <li><span style="font-size: 15px;">Permis B</span></li>
+                                <li><span style="font-size: 15px;">Langue anglaise (TOEIC 890)</span></li>
+                                
+                                
+                            </p>
                             </blockquote>
                         </div>
                     </div>
@@ -216,11 +217,18 @@
                 <div class="col-12 col-md-4 pb-3">
                     <div class="card">
                         <div class="card-header" style="background-color: #215EB5;">
-                            <h3 style="color: #FFFFFF;">Compétences</h3>
+                            <h3 style="color: #FFFFFF;">Gestion de projet</h3>
                         </div>
                         <div class="card-body">
                             <blockquote class="blockquote mb-0">
-                                <p>A well-known quote, contained in a blockquote element.</p>
+                            <p><ul class="liref">
+                            <li><span style="font-size: 15px;">Création de budget</span></li>
+                                <li><span style="font-size: 15px;">Création de planning</span></li>
+                                <li><span style="font-size: 15px;">Création cahier des charges</span></li>
+                                <li><span style="font-size: 15px;">Analyse de marché</span></li>
+                                <li><span style="font-size: 15px;">Marketing Digital</span></li>
+                                <li><span style="font-size: 15px;">Gestion Agile, Scrum, Kanban, Gantt</span></li>
+                            </p>
                             </blockquote>
                         </div>
                     </div>

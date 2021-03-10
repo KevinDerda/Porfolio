@@ -38,9 +38,9 @@
                 <div class="col-12 col-md-5 pt-3 ps-5 d-flex align-items-center justify-content-center animate__animated animate__backInLeft">
                     <img src="public/img/contact1.png" class="img-fluid" alt="Communication">
                 </div>
-                <div class="col-12 col-md-7 pt-3 pe-5">
+                <div class="col-12 col-md-6 pt-3 pe-5">
                     <div class="row">
-                        <div class="col-12 col-md-6 pt-3 d-flex flex-column align-items-center justify-content-center">
+                        <div class="col-12 col-md-6 pt-3 d-flex flex-column align-items-top justify-content-top">
                             <div class="mb-3" style="width: 100%;">
                                 <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre nom">
                                     <input class="input2 border-top-0 border-end-0 border-start-0 border border-1"
@@ -58,7 +58,20 @@
                             </div>
                         </div>
 
-                        <div class="mb-3 form-check p-0">
+                       
+                    
+
+                    <div class="col-12 col-md-6 pt-3 d-flex justify-content-center">
+                        <div class="mb-3" style="width: 100%; height: 100%;">
+                            <textarea rows="5" name="content" placeholder="Votre message"
+                                      class="border-top-0 border-end-0 border-start-0 border border-1"
+                                      style="width: 100%; height: 85%; font-family: 'Open Sans';"
+                                      required></textarea>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="mb-3 form-check p-0">
                             <div class="mb-3 form-check p-0">
                                 <p><input type="checkbox" name="rgpd" required> En soumettant ce formulaire,
                                     j'accepte que les
@@ -68,16 +81,6 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 pt-3 d-flex justify-content-center">
-                        <div class="mb-3" style="width: 100%; height: 100%;">
-                            <textarea rows="1" name="content" placeholder="Votre message"
-                                      class="border-top-0 border-end-0 border-start-0 border border-1"
-                                      style="width: 100%; height: 85%; font-family: 'Open Sans';"
-                                      required></textarea>
-                        </div>
-                    </div>
                 </div>
 
             </div>
