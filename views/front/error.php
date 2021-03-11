@@ -1,28 +1,59 @@
 <?php ob_start(); ?>
 <!-- Meta -->
-<title>Kévin Derda / Chef de projet</title>
-<meta name="description" content="Kévin Derda Lorem ipsum">
-<meta name="keywords" content="Chef de projet, Chef de projets, Gestion de projet, Gestion de projets"/>
-<meta name="author" content="Derda Kévin"/>
-<meta name="copyright" content="Derda Kévin"/>
-<meta name="robots" content="index"/>
+<title>Kévin Derda / Erreur 404</title>
+<meta name="description" content="Chef de projet avec 7 ans d’expérience en France et à l’international. Je maximise le potentiel de vos projets, dans le respect des plannings et des budgets.">
+<meta name="keywords" content="Chef de projet, Chef de projets, Gestion de projet, Gestion de projets" />
+<meta name="author" content="Derda Kévin" />
+<meta name="copyright" content="Derda Kévin" />
+<meta name="robots" content="index" />
 
 <!-- Open Graph meta pour Facebook et LinkedIn -->
-<meta property="og:title" content="Accueil"/>
-<meta property="og:url" content="#"/>
-<meta property="og:image" content=""/>
-<meta property="og:description" content="Kévin Derda Lorem ipsum"/>
-<meta property="og:site_name" content="Kévin Derda Chef de projet"/>
-<meta property="og:type" content="website"/>
+<meta property="og:title" content="Erreur 404" />
+<meta property="og:url" content="#" />
+<meta property="og:image" content="/public/img/LogoBleu.png" />
+<meta property="og:description" content="Chef de projet 7 ans d’exp. en France et à l’international." />
+<meta property="og:site_name" content="Kévin Derda Chef de projet" />
+<meta property="og:type" content="website" />
 <?php $meta = ob_get_clean(); ?>
 
 <?php ob_start(); ?>
-<section class="home-section home-parallax home-fade home-full-height bg-dark bg-dark-30" id="home" data-background="/public/img/alaska.jpg">
-    <div class="titan-caption">
-        <div class="caption-content">
-            <div class="font-alt mb-30 titan-title-size-4">Erreur</div>
-            <div class="font-alt"><?= $errorMsg = "e404" ? "La page n'existe pas" : $errorMsg ?></div>
-            <div class="font-alt mt-30"><a class="btn btn-border-w btn-round" href="/">Retour à la page d'accueil</a></div>
+<section style="background-color: #FFFFFF" id="topwhite" class="py-3">
+    <div class="container">
+        <h1 class="pb-3 text-center">Erreur 404</h1>
+        <p class="pb-3 text-center">Vous naviguez en zone inconnue !</p>
+    </div>
+</section>
+<section style="background-color: #FFFFFF" id="botwhite" class="py-2">
+    <div class="container px-4">
+        <div class="row px-4">
+            <div class="col-2 d-md-none">
+            </div>
+            <div class="col-8 col-md-6 d-flex justify-content-center align align-items-center pb-5">
+                <img src="/public/img/bateau.png" class="img-fluid" alt="Navire perdu">
+            </div>
+            <div class="col-2 d-md-none">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align align-items-center text-center">
+                <div class="row px-4">
+                    <div class="col-2 d-md-none">
+                    </div>
+                    <div class="col-8 col-md-12 d-flex justify-content-center align align-items-center text-center pb-3">
+                        Remettez vite le cap vers la terre ferme !
+                    </div>
+                    <div class="col-2 d-md-none">
+                    </div>
+                </div>
+
+                <div class="row px-4">
+                    <div class="col-2 d-md-none">
+                    </div>
+                    <div class="col-8 col-md-12 d-flex justify-content-center align align-items-center pb-5">
+                        <a class="btn btn-primary btn-lg" href="/" role="button">Accueil</a>
+                    </div>
+                    <div class="col-2 d-md-none">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
