@@ -181,12 +181,12 @@ son rendu.</p>
                         <div class="card-body">
                             <blockquote class="blockquote mb-0">
                                 <p><ul class="liref">
-                                <li><span style="font-size: 15px;">Suite Microsoft (Excel, Word, Powerpoint)</span></li>
-                                <li><span style="font-size: 15px;">Google Workspace</span></li>
-                                <li><span style="font-size: 15px;">Adobe Photoshop</span></li>
-                                <li><span style="font-size: 15px;">Adobe InDesign</span></li>
-                                <li><span style="font-size: 15px;">Adobe Premiere Pro</span></li>
-                                <li><span style="font-size: 15px;">Final Cut Pro</span></li>
+                                <li><span>Suite Microsoft (Excel, Word, Powerpoint)</span></li>
+                                <li><span>Google Workspace</span></li>
+                                <li><span>Adobe Photoshop</span></li>
+                                <li><span>Adobe InDesign</span></li>
+                                <li><span>Adobe Premiere Pro</span></li>
+                                <li><span>Final Cut Pro</span></li>
                             </p>
 
                             </blockquote>
@@ -201,12 +201,12 @@ son rendu.</p>
                         <div class="card-body">
                             <blockquote class="blockquote mb-0">    
                                 <p><ul class="liref">
-                                <li><span style="font-size: 15px;">HTML</span></li>
-                                <li><span style="font-size: 15px;">CSS</span></li>
-                                <li><span style="font-size: 15px;">Wireframe</span></li>
-                                <li><span style="font-size: 15px;">Github</span></li>
-                                <li><span style="font-size: 15px;">Permis B</span></li>
-                                <li><span style="font-size: 15px;">Langue anglaise (TOEIC 890)</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>Wireframe</span></li>
+                                <li><span>Github</span></li>
+                                <li><span>Permis B</span></li>
+                                <li><span>Langue anglaise (TOEIC 890)</span></li>
                                 
                                 
                             </p>
@@ -222,12 +222,12 @@ son rendu.</p>
                         <div class="card-body">
                             <blockquote class="blockquote mb-0">
                             <p><ul class="liref">
-                            <li><span style="font-size: 15px;">Création de budget</span></li>
-                                <li><span style="font-size: 15px;">Création de planning</span></li>
-                                <li><span style="font-size: 15px;">Création cahier des charges</span></li>
-                                <li><span style="font-size: 15px;">Analyse de marché</span></li>
-                                <li><span style="font-size: 15px;">Marketing Digital</span></li>
-                                <li><span style="font-size: 15px;">Gestion Agile, Scrum, Kanban, Gantt</span></li>
+                            <li><span>Création de budget</span></li>
+                                <li><span>Création de planning</span></li>
+                                <li><span>Création cahier des charges</span></li>
+                                <li><span>Analyse de marché</span></li>
+                                <li><span>Marketing Digital</span></li>
+                                <li><span>Gestion Agile, Scrum, Kanban, Gantt</span></li>
                             </p>
                             </blockquote>
                         </div>
