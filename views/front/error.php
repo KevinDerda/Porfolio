@@ -5,7 +5,7 @@
 <meta name="keywords" content="Chef de projet, Chef de projets, Gestion de projet, Gestion de projets" />
 <meta name="author" content="Derda Kévin" />
 <meta name="copyright" content="Derda Kévin" />
-<meta name="robots" content="index" />
+<meta name="robots" content="noindex">
 
 <!-- Open Graph meta pour Facebook et LinkedIn -->
 <meta property="og:title" content="Erreur 404" />

@@ -7,6 +7,7 @@
 
     <?= $meta; ?>
 
+<!-- google analytic-->
     <!-- Favicon -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/public/img/Favicon/apple-touch-icon-57x57.png"/>
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/img/Favicon/apple-touch-icon-114x114.png"/>
