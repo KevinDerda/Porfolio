@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://portfolio.codeassist.io/</loc>
+  <lastmod>2021-03-11T13:36:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://portfolio.codeassist.io/tag/vuejs/</loc>
+  <lastmod>2021-03-11T13:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio.codeassist.io/tag/nodejs/</loc>
+  <lastmod>2021-03-11T13:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio.codeassist.io/tag/graphql/</loc>
+  <lastmod>2021-03-11T13:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio.codeassist.io/scalable-billing-application/</loc>
+  <lastmod>2021-03-11T13:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio.codeassist.io/tag/machine-learning/</loc>
+  <lastmod>2021-03-11T13:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio.codeassist.io/automatically-categorize-questions/</loc>
+  <lastmod>2021-03-11T13:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio.codeassist.io/take-part-in-a-kaggle-competition/</loc>
+  <lastmod>2021-03-11T13:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio.codeassist.io/develop-a-proof-of-concept/</loc>
+  <lastmod>2021-03-11T13:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio.codeassist.io/author/julien/</loc>
+  <lastmod>2021-03-11T13:36:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
