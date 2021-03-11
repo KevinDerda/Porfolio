@@ -134,7 +134,7 @@
                             </div>
 
                             <div class="col-6 col-md-6 d-flex justify-content-start">
-                                <a class="btn btn-secondary btn-lg" href="https://www.linkedin.com/in/kevinderda/" target="_blank" role="button">LinkedIn</a>
+                                <a class="btn btn-secondary btn-lg" href="https://www.linkedin.com/in/kevinderda/" target="_blank" role="button" rel="noreferrer">LinkedIn</a>
                             </div>
                         </div>
 
@@ -218,7 +218,7 @@
 
     <section style="background-color: #FFFFFF" class="roundb">
 
-        <form class="container-fluid hachure roundb py-3 px-4 " id="formecran">
+        <form class="container-fluid hachure roundb py-3 px-4" id="formecran">
 
             <div class="row pt-5" style="background-color: white;">
                 <h2 class="text-center display-4">Contact</h2>
@@ -237,11 +237,14 @@
                         <div class="col-12 col-md-6 pt-3 d-flex flex-column align-items-center justify-content-center">
 
                             <div class="mb-3" style="width: 100%;">
+                            
                                 <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre nom">
-
+                                
                                     <input class="input2 border-top-0 border-end-0 border-start-0 border border-1"
                                            type="text" name="name" placeholder="Votre nom"
-                                           style="width: 100%; font-family: 'Open Sans';" required>
+                                           style="width: 100%; font-family: 'Open Sans';" required aria-label="Votre nom"
+                                           >
+                                          
                                 </div>
                             </div>
 
@@ -250,13 +253,13 @@
 
                                     <input type="email" placeholder="Votre email"
                                            class="border-top-0 border-end-0 border-start-0 border border-1"
-                                           style="width: 100%; font-family: 'Open Sans';" required>
+                                           style="width: 100%; font-family: 'Open Sans';" required aria-label="Votre email">
                                 </div>
                             </div>
 
                             <div class="mb-3 form-check p-0">
 
-                                <p> <input type="checkbox" required> En soumettant ce formulaire, j'accepte que les
+                                <p> <input type="checkbox" aria-label="Acceptation formulaire" required> En soumettant ce formulaire, j'accepte que les
                                     informations saisies dans ce formulaire soient utilisées, exploitées, traitées
                                     pour permettre de me recontacter, dans le cadre de la relation commerciale qui
                                     découle de cette demande.
@@ -271,7 +274,7 @@
 
                                 <textarea rows="1" placeholder="Votre message"
                                           class="border-top-0 border-end-0 border-start-0 border border-1"
-                                          style="width: 100%; height: 85%; font-family: 'Open Sans';" required></textarea>
+                                          style="width: 100%; height: 85%; font-family: 'Open Sans';" required aria-label="Votre message"></textarea>
                             </div>
 
                         </div>
@@ -332,7 +335,7 @@
 
                                         <input class="input2 border-top-0 border-end-0 border-start-0 border border-1"
                                                type="text" name="name" placeholder="Votre nom"
-                                               style="width: 100%; font-family: 'Open Sans';" required>
+                                               style="width: 100%; font-family: 'Open Sans';" required aria-label="Votre nom">
                                     </div>
                                 </div>
 
@@ -341,7 +344,7 @@
 
                                         <input type="email" name="email" placeholder="Votre email"
                                                class="border-top-0 border-end-0 border-start-0 border border-1"
-                                               style="width: 100%; font-family: 'Open Sans';" required>
+                                               style="width: 100%; font-family: 'Open Sans';" required aria-label="Votre email">
                                     </div>
                                 </div>
 
@@ -349,14 +352,14 @@
 
                                 <textarea rows="5" placeholder="Votre message" name="content"
                                           class="border-top-0 border-end-0 border-start-0 border border-1"
-                                          style="width: 100%; height: 100%; font-family: 'Open Sans';" required></textarea>
+                                          style="width: 100%; height: 100%; font-family: 'Open Sans';" required aria-label="Votre message"></textarea>
                                 </div>
 
                             </div>
 
                             <div class="my-3 form-check pt-3">
 
-                                <p> <input type="checkbox" name="rgpd" required> En soumettant ce formulaire, j'accepte que les
+                                <p> <input type="checkbox" name="rgpd" required aria-label="Acceptation formulaire" > En soumettant ce formulaire, j'accepte que les
                                     informations saisies dans ce formulaire soient utilisées, exploitées, traitées
                                     pour permettre de me recontacter, dans le cadre de la relation commerciale qui
                                     découle de cette demande.
