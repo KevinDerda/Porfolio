@@ -194,6 +194,7 @@
                                 <li><span>HTML</span></li>
                                 <li><span>CSS</span></li>
                                 <li><span>Wireframe</span></li>
+                                <li><span>Bootstrap</span></li>
                                 <li><span>Github</span></li>
                                 <li><span>Permis B</span></li>
                                 <li><span>Langue anglaise (TOEIC 890)</span></li>
