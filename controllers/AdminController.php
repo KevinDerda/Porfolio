@@ -118,6 +118,7 @@ class AdminController {
             if ($file_size > 2097152) {
                 $errors[] = 'File size must be inferior to 2 MB';
             }
+            $file_name = str_replace(" ","_", $file_name);
             if (empty($errors) == true) {
                 move_uploaded_file($file_tmp, 'uploads/'.$file_name);
                 echo "Success";
