@@ -38,7 +38,7 @@
                     <div class="col-2 d-md-none">
                     </div>
                     <div class="col-8 col-md-12 d-flex justify-content-center align align-items-center text-center pb-3">
-                        Remettez vite le cap vers la terre ferme !
+                        <p>Remettez vite le cap vers la terre ferme !<P>
                     </div>
                     <div class="col-2 d-md-none">
                     </div>
