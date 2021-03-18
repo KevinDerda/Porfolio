@@ -16,15 +16,55 @@
     <link href="/public/css/back/material-dashboard.min.css" rel="stylesheet"/>
     <link href="/public/css/back/admin.css" rel="stylesheet"/>
     <script src="/public/js/back/tinymce/tinymce.min.js"></script>
+    <script src="/public/js/back/tinymce/plugins/image/plugin.min.js"></script>
     <script>
         tinymce.init({
             selector: '#mce',
             height: 500,
-            menubar: false,
-            toolbar: 'undo redo |  formatselect | bold italic backcolor  | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help',
-            content_css: [
-                '//fonts.googleapis.com/css?family=Lato:300,300i,400,400i',
-                '//www.tinymce.com/css/codepen.min.css']
+            plugins: [
+                'advlist autolink link image lists charmap print preview hr anchor pagebreak',
+                'searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking',
+                'table emoticons template paste help'
+            ],
+            toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | ' +
+                'bullist numlist outdent indent | link image | print preview media fullpage | ' +
+                'forecolor backcolor emoticons | help',
+            menu: {
+                favs: {title: 'My Favorites', items: 'code visualaid | searchreplace | emoticons'}
+            },
+            menubar: 'favs file edit view insert format tools table help',
+            automatic_uploads: false,
+            images_upload_url: '/admin/upload',
+            images_upload_handler: function (blobInfo, success, failure) {
+                var xhr, formData;
+
+                xhr = new XMLHttpRequest();
+                xhr.withCredentials = false;
+                xhr.open('POST', '/admin/upload');
+
+                xhr.onload = function() {
+                    var json;
+
+                    if (xhr.status != 200) {
+                        failure('HTTP Error: ' + xhr.status);
+                        return;
+                    }
+
+                    json = JSON.parse(xhr.responseText);
+
+                    if (!json || typeof json.file_path != 'string') {
+                        failure('Invalid JSON: ' + xhr.responseText);
+                        return;
+                    }
+
+                    success(json.file_path);
+                };
+
+                formData = new FormData();
+                formData.append('file', blobInfo.blob(), blobInfo.filename());
+
+                xhr.send(formData);
+            }
         });
     </script>
 </head>

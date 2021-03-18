@@ -62,6 +62,7 @@ if(isset($_SESSION['login'])){
     $router->addGetRoute('/admin/users', 'Admin#getUsers');
     $router->addPostRoute('/admin/users/createUser', 'Admin#createUser');
     $router->addPostRoute('/admin/users/:id', 'Admin#removeUser');
+    $router->addPostRoute('/admin/upload', 'Admin#upload');
 }
 
 $router->addGetRoute('/error/:errorMsg', function($errorMsg){
