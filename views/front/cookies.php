@@ -32,14 +32,13 @@
                     les types de cookies que nous utilisons, c’est-à-dire les informations que nous collectons à l’aide
                     de cookies et comment ces informations sont utilisées, et comment contrôler les préférences de
                     cookies. Pour plus d’informations sur la manière dont nous utilisons, stockons et gardons vos
-                    données personnelles en sécurité, consultez notre <a href="KDpolitique-de-gestion-des-cookies.html">Politique
+                    données personnelles en sécurité, consultez notre <a href="/politique-confidentialite">Politique
                         de confidentialité</a></strong></p>
             <p class="pb-3">Vous pouvez à tout moment modifier ou retirer votre consentement à la déclaration relative
                 aux cookies sur notre site Web.</p>
             <p class="pb-3">Apprenez-en plus sur qui nous sommes, comment vous pouvez nous contacter et comment nous
                 traitons les données personnelles dans notre politique de confidentialité.</p>
-            <p class="pb-3">Votre consentement s’applique aux domaines suivants : https://kd.fr/</p>
-            <p class="pb-3">Votre état actuel : Consent accepted. Gérez votre consentement.</p>
+            <p class="pb-3">Votre consentement s’applique aux domaines suivants : https://kevinderda.com/</p>
         </div>
     </section>
 
@@ -69,25 +68,12 @@
                 le site Web, le nombre de visiteurs uniques, les pages du site Web visitées, la source de la visite,
                 etc. Ces données nous aident à comprendre et à analyser les performances du site Web. et là où elle doit
                 être améliorée.</p>
-            <p class="pb-3">Marketing : Notre site Web est susceptible d’afficher des publicités. Ces cookies sont
-                utilisés pour personnaliser les publicités que nous vous montrons afin qu’elles soient significatives
-                pour vous. Ces cookies nous aident également à suivre l’efficacité de ces campagnes publicitaires.
-                Les informations stockées dans ces cookies peuvent également être utilisées par les fournisseurs de
-                publicité tiers pour vous montrer également des publicités sur d’autres sites Web sur le navigateur.</p>
             <p class="pb-3">Fonctionnel : Ce sont les cookies qui aident certaines fonctionnalités non essentielles de
                 notre site Web. Ces fonctionnalités incluent l’intégration de contenu tel que des vidéos ou le partage
                 de contenu du site Web sur des plateformes de médias sociaux.</p>
-            <p class="pb-3">Préférences : ces cookies nous aident à stocker vos paramètres et vos préférences de
-                navigation, comme les préférences linguistiques, afin que vous ayez une expérience meilleure et efficace
-                lors de vos futures visites sur le site.</p>
 
             <h2 class="pb-3">Comment puis-je contrôler les préférences des cookies ?</h2>
-            <p class="pb-3">Si vous décidez de modifier vos préférences ultérieurement au cours de votre session de
-                navigation, vous pouvez cliquer sur ce lien :</p>
-            <p class="pb-3">Votre état actuel : Consent accepted. Gérez votre consentement.</p>
-            <p class="pb-3">Cela affichera à nouveau l’avis de consentement, vous permettant de modifier vos préférences
-                ou de retirer votre consentement entièrement.</p>
-            <p class="pb-3">En plus de cela, différents navigateurs proposent différentes méthodes pour bloquer et
+            <p class="pb-3">Certains navigateurs proposent différentes méthodes pour bloquer et
                 supprimer les cookies utilisés par les sites Web. Vous pouvez modifier les paramètres de votre
                 navigateur pour bloquer / supprimer les cookies. Pour en savoir plus sur la gestion et la suppression
                 des cookies, visitez wikipedia.org, www.allaboutcookies.org.</p>

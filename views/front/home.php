@@ -11,7 +11,7 @@
     <meta property="og:title" content="Accueil"/>
     <meta property="og:url" content="#"/>
     <meta property="og:image" content="/public/img/LogoBleu.png"/>
-    <meta property="og:description" content="Chef de projet 7 ans d’exp. en France et à l’international."/>
+    <meta property="og:description" content="Chef de projet, 7 ans d’exp. en France et à l’international."/>
         <meta property="og:site_name" content="Kévin Derda Chef de projet"/>
     <meta property="og:type" content="website"/>
 <?php $meta = ob_get_clean(); ?>
@@ -169,7 +169,7 @@
 
             <div class="row px-5 pb-5" style="background-color: #FFFFFF;">
                 <div class="col-12 col-md-7 px-5 d-flex align-items-center justify-content-center">
-                    <img src="/public/img/blog.png" class="img-fluid" alt="Blog" id=blogecran>
+                    <img src="/public/img/Blog.png" class="img-fluid" alt="Blog" id=blogecran>
                 </div>
                 <div class="col-12 col-md-5 px-5 px-md-0">
                     <div id="carouselExampleIndicators" class="carousel slide wow animate__animated animate__fadeInRight" data-bs-ride="carousel">
@@ -218,10 +218,11 @@
 
     <section style="background-color: #FFFFFF" class="roundb">
 
-        <form class="container-fluid hachure roundb py-3 px-4" id="formecran">
+        <form class="container-fluid hachure roundb py-3 px-4" id="formecran" method="POST" action="/email">
 
             <div class="row pt-5" style="background-color: white;">
                 <h2 class="text-center display-4">Contact</h2>
+                <p class="text-center">email : kevin@kevinderda.com</p>
             </div>
 
             <div class="row pb-2" style="background-color: white;">
@@ -251,7 +252,7 @@
                             <div class="mb-3" style="width: 100%;">
                                 <div class="wrap-input2 validate-input" data-validate="Veuillez inscrire votre email">
 
-                                    <input type="email" placeholder="Votre email"
+                                    <input type="email" name="email" placeholder="Votre email"
                                            class="border-top-0 border-end-0 border-start-0 border border-1"
                                            style="width: 100%; font-family: 'Open Sans';" required aria-label="Votre email">
                                 </div>
@@ -259,7 +260,7 @@
 
                             <div class="mb-3 form-check p-0">
 
-                                <p> <input type="checkbox" aria-label="Acceptation formulaire" required> En soumettant ce formulaire, j'accepte que les
+                                <p> <input type="checkbox" name="rgpd" aria-label="Acceptation formulaire" required> En soumettant ce formulaire, j'accepte que les
                                     informations saisies dans ce formulaire soient utilisées, exploitées, traitées
                                     pour permettre de me recontacter, dans le cadre de la relation commerciale qui
                                     découle de cette demande.
@@ -272,7 +273,7 @@
 
                             <div class="mb-3" style="width: 100%; height: 100%;">
 
-                                <textarea rows="1" placeholder="Votre message"
+                                <textarea rows="1" placeholder="Votre message" name="content"
                                           class="border-top-0 border-end-0 border-start-0 border border-1"
                                           style="width: 100%; height: 85%; font-family: 'Open Sans';" required aria-label="Votre message"></textarea>
                             </div>
@@ -311,10 +312,11 @@
 
         <!-- form telephone -->
 
-        <form class="container-fluid hachure roundb py-3 px-4" id="formtelephone">
+        <div class="container-fluid hachure roundb py-3 px-4" id="formtelephone">
 
             <div class="row pt-5" style="background-color: white;">
                 <h2 class="text-center display-4">Contact</h2>
+                <p class="text-center">email : kevin@kevinderda.com</p>
             </div>
 
             <div class="row pb-5 roundb" style="background-color: white;">
@@ -376,7 +378,7 @@
 
             </div>
 
-        </form>
+        </div>
 
     </section>
 <?php $content = ob_get_clean();

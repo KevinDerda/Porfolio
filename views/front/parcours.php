@@ -153,7 +153,7 @@
                 </div>
             </div>
             <div class="col-3" id=polaris>
-                <img src="public/img/parcours2.png" class="img-fluid animate__animated animate__rotateInUpRight" alt="Polaris">
+                <img src="/public/img/parcours2.png" class="img-fluid animate__animated animate__rotateInUpRight" alt="Polaris">
             </div>
         </div>
 
@@ -167,7 +167,7 @@
                     </div>
                     <div class="card-body">
                         <blockquote class="blockquote mb-0">
-                            <p>
+                       
                             <ul class="liref">
                                 <li><span>Suite Microsoft (Excel, Word, Powerpoint)</span></li>
                                 <li><span>Google Workspace</span></li>
@@ -176,7 +176,7 @@
                                 <li><span>Adobe Premiere Pro</span></li>
                                 <li><span>Final Cut Pro</span></li>
                             </ul>
-                            </p>
+                    
 
                         </blockquote>
                     </div>
@@ -189,7 +189,7 @@
                     </div>
                     <div class="card-body">
                         <blockquote class="blockquote mb-0">
-                            <p>
+                   
                             <ul class="liref">
                                 <li><span>HTML</span></li>
                                 <li><span>CSS</span></li>
@@ -200,7 +200,7 @@
                                 <li><span>Langue anglaise (TOEIC 890)</span></li>
                                 </ul>
 
-                                </p>
+                        
                         </blockquote>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
                     </div>
                     <div class="card-body">
                         <blockquote class="blockquote mb-0">
-                            <p>
+                       
                             <ul class="liref">
                                 <li><span>Création de budget</span></li>
                                 <li><span>Création de planning</span></li>
@@ -221,7 +221,7 @@
                                 <li><span>Marketing Digital</span></li>
                                 <li><span>Gestion Agile, Scrum, Kanban, Gantt</span></li>
                                 </ul>
-                                </p>
+                          
                         </blockquote>
                     </div>
                 </div>
@@ -229,7 +229,7 @@
         </div>
         <div class="row">
             <div class="col-12 d-md-none">
-                <img src="public/img/parcours1.png" class="wow img-fluid animate__animated animate__rotateInUpRight" alt="Polaris">
+                <img src="/public/img/parcours1.png" class="wow img-fluid animate__animated animate__rotateInUpRight" alt="Polaris">
             </div>
         </div>
     </div>

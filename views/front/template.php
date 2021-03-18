@@ -4,10 +4,18 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JG0MJGY06D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-JG0MJGY06D');
+  </script>
     <?= $meta; ?>
 
-<!-- google analytic-->
+
     <!-- Favicon -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/public/img/Favicon/apple-touch-icon-57x57.png"/>
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/img/Favicon/apple-touch-icon-114x114.png"/>
@@ -48,7 +56,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/fed6a1c0d3.js" crossorigin="anonymous"></script>
-
+    <meta name="google-site-verification" content="PH7cgbzE6x8GLasiGetxwsHI4m-l6DFsnshtuCrslN8" />
 </head>
 
 
@@ -100,23 +108,39 @@
 <!-- COOKIE -->
 
     </div>
-    <div id="cookie-banner" class="alert alert-warning alert-dismissible fade container-fluid"
+    <div id="cookie-banner" class="alert alert-warning alert-dismissible fade container-fluid px-3"
          style="height: auto;">
         <div class="row px-3">
-            <div class="col-10 px-3 pt-2 text-center">
+            <div class="col-12 col-md-10 px-3 pt-2 text-center">
                 <p>Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. En
                     poursuivant
                     votre navigation sur ce site, nous considérerons que vous acceptez l'utilisation des cookies. <a
-                            href="KDpolitique-de-gestion-des-cookies.html" style="color: #FFFFFF;">En savoir plus</a>
+                            href="/cookies" style="color: #FFFFFF;">En savoir plus</a>
                 </p>
             </div>
-            <div class="col-2 px-3 d-flex align-items-center">
+            <div class="col-12 col-md-2 px-3 d-flex text-center justify-content-center align-items-center">
                 <button onclick="hideCookieBanner()" type="button" class="btn btn-secondary">J'AI COMPRIS</button>
             </div>
         </div>
     </div>
 </footer>
+<?php if (array_key_exists('errors', $_SESSION)): ?>
+<div class="flash alert alert-danger">
+    <?= $_SESSION['errors']; ?>
+</div>
+<?php
+  unset($_SESSION['errors']);
+  endif;
+?>
 
+<?php if (array_key_exists('success', $_SESSION)): ?>
+    <div class="flash alert alert-success">
+      <?= $_SESSION['success']; ?>
+    </div>
+<?php
+  unset($_SESSION['success']);
+  endif;
+?>
 <script src="/public/js/front/wow.min.js"></script>
 <script>
     new WOW().init();

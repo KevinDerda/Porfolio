@@ -34,11 +34,11 @@
 
     <section style="background-color: #FFFFFF" id="botwhite" class="py-3">
         <div class="container">
-            <p class="pb-3">Le site kd.fr est la propriété exclusive de Kévin Derda, qui l’édite.</p>
+            <p class="pb-3">Le site kevinderda.com est la propriété exclusive de Kévin Derda, qui l’édite.</p>
             <h2 class="pb-3">DROIT D'ACCES A VOS DONNÉES</h2>
             <p class="pb-3">Toute personne physique utilisant le service a la faculté d’exercer ses droits d’accès, de rectification, d’opposition et d’effacement au traitement de ses données conformément aux articles 38 à 40 de la loi du 6 janvier 1978.</p>
-            <p class="pb-3">En application du règlement 2016/679 du 27 avril 2016, la personne physique peut exercer son droit à la limitation du traitement, à l’effacement de ses données et la portabilité à partir du 25 mai 2018. Ces droits peuvent être exercés auprès du propriétaire du site qui a collecté les données à caractère personnel de la manière suivante :</br>
-                en adressant votre demande à l’adresse email : hello@kd.fr</p>
+            <p class="pb-3">En application du règlement 2016/679 du 27 avril 2016, la personne physique peut exercer son droit à la limitation du traitement, à l’effacement de ses données et la portabilité à partir du 25 mai 2018. Ces droits peuvent être exercés auprès du propriétaire du site qui a collecté les données à caractère personnel de la manière suivante :<br>
+                en adressant votre demande à l’adresse email : kevin@kevinderda.com</p>
             <p class="pb-3">Le propriétaire du site adresse une réponse dans un délai de 1 mois. En cas de réponse non satisfaisante, la personne concernée a la faculté de saisir la CNIL. Par ailleurs, l’Utilisateur peut formuler des directives relatives à la conservation, à l’effacement et à la communication de ses données à caractère personnel après son décès conformément à l’article 40-1 de la loi 78-17 du 6 janvier 1978.
                 Ces directives peuvent être générales ou particulières.</p>
 

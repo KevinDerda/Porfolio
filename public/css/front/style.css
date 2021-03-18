@@ -1,5 +1,12 @@
 /* Typo */
 
+.flash {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+}
+
 h1 {
 	color: #36339E;
 	font-family: 'Dosis';
@@ -40,6 +47,7 @@ i {
 .liref{
 	color : #215EB5;
 	list-style: inside;
+	margin-bottom: 30px;
 }
 
 li span{
@@ -80,6 +88,7 @@ input[type="checkbox"]+label:before {
 
 .menu{
 	animation: swing-in-top-fwd 0.4s ease-in-out;
+	-webkit-animation: sswing-in-top-fwd 0.4s ease-in-out;
 }
 
   @keyframes swing-in-top-fwd {
@@ -117,17 +126,22 @@ input[type="checkbox"]:not(:checked)~ul {
 
 .menu li a:hover {
 	animation: shadow-pop-bl3 0.3s ease-in both;
+	-webkit-animation: shadow-pop-bl3 0.3s ease-in both;
 	color:#FFFFFF;
 	background-color: #215EB5;
 }
 
 	@keyframes shadow-pop-bl3 {
 		0% {
+			-webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
 			box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+			-webkit-transform: translateX(0) translateY(0);
 			transform: translateX(0) translateY(0);
 		}
 		100% {
+			-webkit-box-shadow: 0px 1px #102f5a, 0px 2px #102f5a, 0px 3px #102f5a, 0px 4px #102f5a;
 			box-shadow: 0px 1px #102f5a, 0px 2px #102f5a, 0px 3px #102f5a, 0px 4px #102f5a;
+			-webkit-transform: translateX(0px) translateY(-4px);
 			transform: translateX(0px) translateY(-4px);
 		}
 	}
@@ -213,17 +227,22 @@ input[type="checkbox"]:not(:checked)~ul {
 
 .btn-primary:hover {
 	animation: shadow-pop-bl1 0.3s ease-in both;
+	-webkit-animation: shadow-pop-bl1 0.3s ease-in both;
 	background-color: #932EAB;
 }
 
 
 @keyframes shadow-pop-bl1 {
 	0% {
+		-webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
 		box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+		-webkit-transform: translateX(0) translateY(0);
 		transform: translateX(0) translateY(0);
 	}
 	100% {
+		-webkit-box-shadow: 0px 1px #491655, 0px 2px #491655, 0px 3px #491655, 0px 4px #491655;
 		box-shadow: 0px 1px #491655, 0px 2px #491655, 0px 3px #491655, 0px 4px #491655;
+		-webkit-transform: translateX(0px) translateY(-4px);
 		transform: translateX(0px) translateY(-4px);
 	}
 }
@@ -235,17 +254,22 @@ input[type="checkbox"]:not(:checked)~ul {
 
 .btn-secondary:hover {
 	background-color: #287D9F;
+	-webkit-animation: shadow-pop-bl2 0.3s ease-in both;
 	animation: shadow-pop-bl2 0.3s ease-in both;
 }
 
 
 @keyframes shadow-pop-bl2 {
 	0% {
+		-webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
 		box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+		-webkit-transform: translateX(0) translateY(0);
 		transform: translateX(0) translateY(0);
 	}
 	100% {
+		-webkit-box-shadow: 0px 1px #143e4f, 0px 2px #143e4f, 0px 3px #143e4f, 0px 4px #143e4f;
 		box-shadow: 0px 1px #143e4f, 0px 2px #143e4f, 0px 3px #143e4f, 0px 4px #143e4f;
+		-webkit-transform: translateX(0px) translateY(-4px);
 		transform: translateX(0px) translateY(-4px);
 	}
 }
@@ -289,7 +313,7 @@ input[type="checkbox"]:not(:checked)~ul {
 
 #footer {
 	position: relative;
-	z-index: 75;
+	z-index: -1;
 }
 
 #footer {
@@ -336,6 +360,7 @@ input[type="checkbox"]:not(:checked)~ul {
 	z-index: 500;
 	position: fixed;
 	bottom: 0px;
+	border: none;
 }
 
 .blogbutton
@@ -380,4 +405,8 @@ input[type="checkbox"]:not(:checked)~ul {
   {
 	text-decoration: none;
 	text-decoration-line: none;
+  }
+
+  .card{
+	  height: 100%;
   }

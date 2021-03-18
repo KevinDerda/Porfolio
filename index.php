@@ -40,7 +40,7 @@ $router->addGetRoute('/logout', 'User#logout');
 $router->addPostRoute('/redaction', 'User#validateLogin');
 
 // FORMULAIRE
-$router->addPostRoute('/email', 'Page#sendEmail');
+$router->addPostRoute('/email/:page', 'Page#sendEmail');
 
 /**
  * BACK ROUTING

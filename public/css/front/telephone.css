@@ -72,12 +72,18 @@
 
 #fenetre {
 	background-image: url("/public/img/tokyoresponsive.jpg");
-	background-attachment: fixed;
-	position: relative;
+	background-attachment: initial;
 	background-position: center;
 	z-index: 75;
-	background-size: 250%;
+	background-size: cover;
+	position: relative;
+	-webkit-background-size: cover;
+
+
 }
+
+
+
 
 #map {
 	display: none;
@@ -85,9 +91,10 @@
 
 .hachure {
 	background-image: url("/public/img/hachure.jpg");
-	background-attachment: fixed;
+	background-attachment: initial;
 	position: relative;
 	background-position: center;
 	z-index: 75;
-	background-size: 210%;
+	background-size: cover;
+	-webkit-background-size: cover;
 }

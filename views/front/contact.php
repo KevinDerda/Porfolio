@@ -30,13 +30,14 @@
         </div>
     </section>
     <section style="background-color: #FFFFFF" id="botwhite" class="py-3">
-        <form class="container-fluid" id="formecran" method="POST" action="/email">
+        <form class="container-fluid" id="formecran" method="POST" action="/email/contact">
             <div class="row pt-2">
                 <h2 class="text-center">Discutons ensemble</h2>
+                <p class="text-center">email : kevin@kevinderda.com<p>
             </div>
             <div class="row pb-2">
                 <div class="col-12 col-md-5 pt-3 ps-5 d-flex align-items-center justify-content-center animate__animated animate__backInLeft">
-                    <img src="public/img/contact1.png" class="img-fluid" alt="Communication">
+                    <img src="/public/img/contact1.png" class="img-fluid" alt="Communication">
                 </div>
                 <div class="col-12 col-md-6 pt-3 pe-5">
                     <div class="row">
@@ -100,11 +101,12 @@
             <div class="row pb-2">
                 <div class="col-2 pt-1"></div>
                 <div class="col-8 pt-3 d-flex align-items-center justify-content-center animate__animated animate__backInUp">
-                    <img src="public/img/contact1.png" class="img-fluid" alt="Communication">
+                    <img src="/public/img/contact1.png" class="img-fluid" alt="Communication">
                 </div>
                 <div class="col-2 pt-1"></div>
                 <div class="row pt-5">
                     <h2 class="text-center">Discutons ensemble</h2>
+                    <p class="text-center">email : kevin@kevinderda.com<p>
                 </div>
                 <div class="row pb-5">
                     <div class="col-1 col-md-2 pt-5">
@@ -131,7 +133,7 @@
                                         <textarea rows="5" placeholder="Votre message" name="content"
                                                   class="border-top-0 border-end-0 border-start-0 border border-1"
                                                   style="width: 100%; height: 100%; font-family: 'Open Sans';"
-                                                  required aria-label="Votre message></textarea>
+                                                  required aria-label="Votre message"> </textarea>
                                 </div>
                             </div>
                             <div class="my-3 form-check pt-3">

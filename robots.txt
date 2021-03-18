@@ -1,2 +1,13 @@
 User-agent: *
-Sitemap: wwww.trucmuch.
+Sitemap: https://kevinderda.com/sitemap.xml
+
+User-agent: Googlebot-Image
+Disallow: /public/img/demiecran.png
+Disallow: /public/img/letter2.png
+Disallow: /public/img/Blog.png
+Disallow: /public/img/worldmap.png
+Disallow: /public/img/parcours2.png
+Disallow: /public/img/parcours1.png
+Disallow: /public/img/connexion.jpg
+Disallow: /public/img/bateau.png
+Disallow: /public/img/contact1.png
